@@ -1,0 +1,50 @@
+.redirection-page img,
+.redirection-page p,
+.redirection-page .wp-block-button,
+.redirection-page h2 {
+  display: flex;
+  justify-content: center;
+}
+.redirection-page img {
+  margin: 0px auto;
+}
+.redirection-page .wp-block-image {
+  pointer-events: none;
+}
+.redirection-page h2 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.redirection-page p {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: roboto;
+}
+.redirection-page p:only-of-type {
+  width: 25em;
+  margin: 0px auto 3em;
+  max-width: 100%;
+}
+.redirection-page .wp-block-button {
+  margin-bottom: 4em;
+}
+.redirection-page .wp-block-button a {
+  color: #f58233;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #f58233;
+  border-radius: 28px;
+  font-size: 16px;
+  font-family: roboto;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 1600px){
+	.redirection-page h2 {
+	  font-size: 40px;
+	}
+	.redirection-page p, .redirection-page .wp-block-button a {
+	  font-size: 18px;
+	}
+}

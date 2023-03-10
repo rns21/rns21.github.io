@@ -1,0 +1,99 @@
+.previous-arrow{
+  background-image: url(./../images/navigation/Previous.png);
+  display: block;
+  width: 19px;
+  height: 13px;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position-x: 0%;
+  padding-left:2%;
+}
+.next-arrow{
+  background-image: url(./../images/navigation/Next.png);
+  display: block;
+  width: 19px;
+  height: 13px;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+}
+.next-level{
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 2%;
+}
+.prev-level{
+  display: flex;
+    flex-direction: initial;
+    margin-bottom: 2%;
+}
+.prev-level a,
+.next-level{
+  color: #F58233;
+  text-decoration: none;
+}
+.prev-level:hover a,
+.next-level:hover{
+  color: #F58233;
+  text-decoration: none;
+  font-weight: 700;
+}
+.navigation-container{
+  border-top:1px solid #E2E2E2;
+  width: 100%;
+  margin: 0px auto;
+  margin-top: 3%;
+  margin-bottom: 6%;
+  display: flex;
+  padding-top:1.5%;
+  padding-bottom:1.5%;
+  justify-content: space-between;
+}
+.navigation-container a{
+  margin-top: 3%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.previous-container a{
+  flex-direction: row-reverse;
+}
+.navigation-container a[href=""] {
+  color: #ccc;
+  pointer-events: none;
+}
+.navigation-container a[href=""] .next-arrow{
+  background-image: url(./../images/navigation/next-disable-arrow.png);
+}
+.navigation-container a[href=""] .previous-arrow{
+  background-image: url(./../images/navigation/previous-disable-arrow.png);
+}
+.next-container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.previous-container{
+  display: flex;
+  flex-direction: column;
+}
+.prev-level:hover + .article-text,
+.next-level:hover + .article-text{
+  color: #000000;
+}
+.article-text {
+  font-size: 14px;
+  color: #3C4F54;
+  font-weight: 500;
+}
+
+
+@media screen and (min-width: 1600px){
+	.navigation-container a, .article-text{
+  font-size: 16px;
+}
+}

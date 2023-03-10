@@ -1,0 +1,445 @@
+  body{
+    --font-sm-1 : 16px;
+  }
+  #searchContainter {
+  position: fixed;
+  right: 0;
+  top:20px;
+  width: 60%;
+  height: 100vh;
+  background: #ffffff;
+  z-index: 101;
+}
+.ui-autocomplete.ui-front {
+    z-index: 111 !important;
+}
+.search-margin {
+  margin: 2%;
+}
+.search-margin#datafetch {
+  margin-left: 0px;
+  padding: 0px;
+}
+#searchIcon:hover {
+  color: green;
+}
+.searchTitle a {
+  text-align: left;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  color: #3c4f54;
+  opacity: 1;
+}
+.searchTitle p , .searchTitle span{
+  font-size: 14px;
+  font-weight: 400;
+}
+small {
+  font-size: 12px !important;
+}
+.searchTitle {
+  font-size: 12px;
+}
+.search-count {
+  opacity: 1;
+  background: #e8ecf2 0% 0% no-repeat padding-box;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 10px 26px;
+}
+.searchRes {
+  margin-bottom: 1rem;
+  margin-top: 0.2rem;
+  font-size: 14px;
+  padding-left: 9px;
+}
+.searchResContainer .searchRes:not(:first-child) {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  font-size: 14px;
+}
+.searchResContainer p {
+  margin-bottom: 0px;
+}
+#searchContainter .inputSearch input[type="text"] {
+  -webkit-appearance: none !important;
+  border: transparent;
+  outline: none;
+  padding: 0;
+  font-weight: 600;
+  width: 100%;
+  padding-bottom: 8px;
+  padding-left: 30px;
+  padding-right: 25px;
+  background: #FFFFFF;
+  border-bottom: solid 2px #00000029;
+  font-size: 16px
+}
+.search-logo{
+  background: url(./../images/search/search.png) no-repeat left;
+  border: 0;
+  padding: 15px;
+  position: absolute;
+  left: 10px;
+  bottom: 8px;
+  background-size: 30px;
+}
+.search-margin .inputSearch input[type="text"]:not(:placeholder-shown)+span {
+  background: url(./../images/search/Close.png) no-repeat right;
+  border: 0;
+  padding: 15px;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  background-size: 34px;
+  cursor: pointer;
+}
+#searchContainter .inputSearch input[type="text"]:focus,
+#searchContainter .inputSearch input[type="text"] :hover,
+#searchContainter .inputSearch input[type="text"]:not(:placeholder-shown){
+  border-bottom: solid 2px #c4edf7;
+}
+#searchContainter .inputSearch:hover,
+#searchContainter input:focus {
+  outline: none;
+}
+#searchContainter input::placeholder {
+  font-style: italic;
+  font-weight: normal;
+}
+#datafetch.searchImg {
+  background: url("./../images/search/Search_page_illustration.png") no-repeat
+    center;
+  padding: 30% !important;
+  margin-top: 1% !important;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: 68%;
+}
+.search-err-title{
+  font-size: 22px;
+  font-weight: 500;
+}
+.search-err-title .text-center{
+  font-size: 14px;
+  font-weight: 400;
+}
+.search-count.no-match{
+  margin:0 -15px;
+}
+.ui-state-active,
+.ui-widget-content 
+.ui-state-active, 
+.ui-widget-header
+.ui-state-active,
+a.ui-button:active, 
+#searchContainter .ui-button:active,
+#searchContainter .ui-button.ui-state-active:hover {
+        background-color: #bec8cb1a !important;
+        border-color:transparent !important;
+        border-radius: 4px 4px 0px 0px;
+        color:#3C4F54 !important;
+        font-size: 14px !important;
+        font-weight: 500 !important;
+    
+}
+.searchNoImg {
+  background: url("./../images/search/No_result_found.png") no-repeat;
+  padding: 30%;
+  margin-top: 8%;
+  background-position-x: center;
+  background-position-y: bottom;
+  background-size: 68%;
+}
+#dataFilter {
+  margin-left: 0;
+  padding: 0;
+  margin-right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 1px 2px 3px #00000014;
+  z-index: 1;
+  background: #ffffff;
+}
+
+.body-overlay {
+  position: fixed;
+  display: none;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 101;
+}
+#dataFilter select {
+  width: 70%;
+}
+#dataFilter .head {
+  background: #f5f7fb 0% 0% no-repeat padding-box;
+  font-weight: 500;
+  padding: 10px;
+  padding-left: 15%;
+  width: 100%;
+  font-size: 14px;
+}
+
+.avoid-scroll {
+  overflow: hidden;
+}
+.scrollable {
+  height: 75vh;
+  background: #fcfdff;
+  overflow: auto;
+  padding: 0px 15px;
+}
+.ms-options-wrap button {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #e0e2e6;
+  border-radius: 4px;
+  opacity: 1;
+}
+.scrollable::-webkit-scrollbar {
+  width: 5px;
+  height: 6px;
+}
+
+.scrollable::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.scrollable::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+#dataFilter .ms-options-wrap {
+  width: 70%;
+}
+
+#searchContainter label input[type="checkbox"] {
+  display: none;
+}
+#searchContainter label input[type="checkbox"] + span {
+  background: url("./../images/search/check-box.png") left no-repeat;
+  padding: 8%;
+  margin: 1% 2%;
+}
+#searchContainter label input[type="checkbox"]:checked + span {
+  background: url("./../images/search/checked.png") left no-repeat;
+  padding: 8%;
+  margin: 1% 2%;
+}
+#searchContainter .ms-options-wrap > .ms-options > ul label {
+  display: inline-flex !important;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 4px 4px 4px 10px;
+  border: transparent;
+  text-transform: capitalize;
+  word-break:break-word;
+  font-size: 14px;
+  font-weight: 400;
+}
+#searchContainter .ms-options-wrap > .ms-options > ul label.focused,
+#searchContainter .ms-options-wrap > .ms-options > ul label:hover,
+#searchContainter .ms-options-wrap > .ms-options > ul label:checked,
+#searchContainter  .ms-options-wrap > .ms-options > ul li.selected label{
+  background-color: #bec8cb1a;
+  color: #3C4F54;
+  font-weight: 500;
+  border-color: transparent;
+}
+div .ms-options-wrap > button:after {
+  background: url(./../images/search/Dropdown.png) no-repeat;
+  border: 0;
+  padding: 5%;
+  transition: transform 0.2s;
+}
+.ms-options-wrap.ms-active > button:after{
+    transform:rotate(180deg);
+    transition: transform 0.2s;
+    background-position-y: bottom;
+    background-position-x: center;
+}
+#searchContainter .ui-button .ui-icon {
+    background: url(./../images/search/Dropdown.png) no-repeat;
+    border: 0;
+    padding: 0 7%;
+    margin-right: -13%;
+    background-position-y: center;
+    background-size: 14px;
+    transition: transform 0.2s;
+}
+div .ms-options-wrap > .ms-options > ul {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border: 1px solid #e0e2e6;
+  border-radius: 4px;
+  opacity: 1;
+}
+#searchContainter .ui-selectmenu-text {
+  margin-right: 0;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: roboto;
+}
+#dataFilter select {
+  -webkit-appearance: none;
+  outline: none;
+  width: 80%;
+  border: 1px solid #aaa;
+  padding: 4px;
+  background-position-x: 95%;
+  background-position-y: center;
+  border-radius: 4px;
+  color: #aaa;
+}
+#dataFilter select + span[aria-expanded=true] span:first-child{
+    transform:rotate(180deg);
+    background-position-x: right;
+    transition: transform 0.2s;
+}
+.fluid-container .search-input-container{
+    margin-bottom: 2px;
+    margin-top: 1px;
+}
+#dateFilterSelect-button{
+    border: 1px solid #E0E2E6;
+    color:#3C4F54;
+    background: #ffffff ;
+    width: 70%;
+    border-radius: 3px;
+    margin-top: 1.5em;
+    padding: 5px 20px 5px 5px;
+    margin-bottom: 1em;
+    outline: none;
+}
+.ui-button .ui-icon{
+    background: url(./../images/search/Dropdown.png) no-repeat;
+    border: 0;
+    padding: 5%;
+}
+#dateFilterSelect-menu{
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #e0e2e6;
+    border-radius: 4px;
+    opacity: 1;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+#searchContainter .ms-options-wrap > button{
+    border: 1px solid #E0E2E6;
+    border-radius: 4px;
+}
+#searchContainter .ms-options-wrap > .ms-options > ul{
+    color:#81959A;
+    font-size: 13px;
+}
+#authorFilterSelect + div[id^="ms-list"]{
+    margin-top:0px;
+}
+div[id^="ms-list"] {
+  margin-top: 20px;
+}
+  .ms-search input[type="text"] {
+    position: relative;
+    font-size: 13px;
+    background: #ffffff;
+}
+.ms-search input:not(:placeholder-shown)+span.cross{
+  background: url(./../images/search/Close.png) no-repeat;
+  border: 0;
+  padding: 5%;
+  position: absolute;
+  right: 5px;
+  top: 9px;
+  background-size: 21px;
+  cursor: pointer;
+}
+.ms-options-wrap > button > span{
+    color: #3C4F54;
+    font-size: 14px;
+    font-weight: 500;
+}
+.ui-widget.ui-widget-content {
+  border: 1px solid #c5c5c5;
+  background: #f5f6f6;
+  font-size: 14px;
+  font-family: roboto;
+  letter-spacing: 0;
+  color: #81959a;
+  opacity: 1;
+  z-index: 111;
+  max-height: 500px;
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+.ms-options-wrap.ms-active > .ms-options {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border: 1px solid #e0e2e6;
+  border-radius: 4px;
+  opacity: 1;
+}
+#searchContainter .ms-options-wrap > .ms-options {
+  left: auto;
+  width: 70%;
+}
+.ui-menu > .ui-menu-item:first-child,.ui-menu  > .ui-menu-item:first-child .ui-menu-item-wrapper.ui-state-active{
+  font-weight: 500;
+  }
+  .ui-autocomplete .ui-menu-item{
+   text-indent : calc(30px - 0.4em);
+   color:#3C4F54;
+  }
+  
+  .ui-selectmenu-menu.ui-front.ui-selectmenu-open{
+  z-index: 111 !important;
+  }
+@media screen and (max-width: 1020px) {
+  #searchContainter {
+    width: 80%;
+  }
+  .ms-options-wrap > .ms-options > ul label {
+    padding: 4px 2px 4px 2px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #searchContainter {
+    width: 98%;
+  }
+  #searchContainter .ui-button .ui-icon{
+    padding: 0px 8.6%;
+  }
+  label input[type="checkbox"] + span {
+    padding: 6%;
+    margin: 0% 2%;
+  }
+  label input[type="checkbox"]:checked + span {
+    padding: 6%;
+    margin: 0% 2%; 
+  }
+}
+
+@media screen and (min-width: 1600px){
+  .searchTitle a, .search-count, .search-err-title .text-center,
+  #dataFilter .head {
+  font-size: 16px;
+  }
+  .search-err-title{
+  font-size: 24px;
+  }
+  #searchContainter .ui-selectmenu-text, .ms-options-wrap > button > span{
+  font-size: 15px;
+  }
+  #searchContainter .inputSearch input[type="text"] {
+  font-size: 18px;
+  }
+}

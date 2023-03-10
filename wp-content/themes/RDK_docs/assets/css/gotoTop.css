@@ -1,0 +1,41 @@
+  .go-top {
+    width: 75px;
+    height: 50px;
+    position: fixed;
+    bottom: 60px;
+    right: 30px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 3;
+  }
+  .go-top-icon:hover {
+    background: url(./../images/side_nav/go_to_top_hover.png) no-repeat;
+    background-size: 50px 50px;
+  }
+  .go-top-icon:hover + .go-top-txt {
+    color: #000000;
+  }
+  .go-top-icon, .go-top-icon:active {
+    background: url(./../images/side_nav/go_to_top.png) no-repeat;
+    background-size: 50px 50px;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+  }
+  .go-top-txt {
+    font-size: 14px;
+    color: #3c4f54;
+    font-weight: 500;
+  }
+  @media screen and (min-width: 1024px){
+    .go-top {
+      right: 12%;
+    }
+  }
+
+  /** go to top css */
+@media screen and (min-width: 1600px){
+	.go-top-txt {
+    font-size: 16px;
+	}
+}

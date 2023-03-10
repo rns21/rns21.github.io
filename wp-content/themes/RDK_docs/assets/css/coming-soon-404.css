@@ -1,0 +1,88 @@
+.redirect a {
+    color: #f58233;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.redirect a:hover,
+.redirect a:active,
+.redirect a:focus {
+    color: #f58233;
+    text-decoration: none;
+}
+
+.comingsoon-responsive {
+    position: relative;
+    background-image: url("./../images/coming-soon-page/404.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    background-size: 100% 100%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    height: 78vh;
+    width: 100vw;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.comingsoon-text-top {
+    position: absolute;
+    font-size: 7vw;
+    font-weight: 100;
+    color: #81959A;
+    top: 35%;
+}
+
+.comingsoon-subtext {
+    position: absolute;
+    font-size: 4vw;
+    font-weight: 100;
+    color: #81959A;
+    top: 42%;
+}
+
+.construction-text {
+    position: absolute;
+    font-size: 4vw;
+    font-weight: 400;
+    color: #81959A;
+    top: 47%;
+}
+
+.redirect {
+    position: absolute;
+    background: #ffffff;
+    border: 1px solid #f58233;
+    border-radius: 30px;
+    font-weight: 500;
+    padding: 2%;
+    font-size: 3vw;
+    top: 60%;
+}
+
+@media (orientation: landscape) {
+    .comingsoon-text-top {
+        font-size: 8vh !important;
+        top: 15% !important;
+    }
+    .construction-text {
+        font-size: 3vh !important;
+        top: 37% !important;
+    }
+    .redirect {
+        font-size: 2vh !important;
+        top: 60vh !important;
+        padding: 1% !important;
+    }
+    .comingsoon-subtext {
+        font-size: 5vh !important;
+        top: 28% !important;
+    }
+}
+
+.upper-case {
+    text-transform: uppercase;
+}

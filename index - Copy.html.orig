@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description">
+  <meta name="author">
+
+  <title>Source | </title>
+  <link href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAALxJREFUWEdjZBhgwDjA9jOMOgASApvu/B+QqPBTYRx1wKAJgYkDlAbyB0c2/LPdMnIgQoDF8/hycAj83W49INmQ2fMoJBuOOmDAQ+D/NmuLgUiEjF5HTwyObDjphOfXgQiBPIvt3OAQmHTCc0CyYZ7Fdkg2HHXAxOMecwYiDeRb7kgZHLnga7Oh30CEAHft+U3gEPjaZDwguYC77iwkF4w6YMBD4HujofNAJELO+vN7B0c2HAjfw+wc8BAAAEy0UyHfKvUSAAAAAElFTkSuQmCC" rel="icon" type="image/x-icon">
+
+  <meta name="robots" content="max-image-preview:large">
+<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":".\/\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.1.1"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode,e=(p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0),i.toDataURL());return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(p&&p.fillText)switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([129777,127995,8205,129778,127999],[129777,127995,8203,129778,127999])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style type="text/css">img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}</style>
+	<link rel="stylesheet" id="wp-block-library-css" href="./wp-includes/css/dist/block-library/style.min.css?ver=6.1.1" type="text/css" media="all">
+<link rel="stylesheet" id="gutenberg-pdfjs-css" href="./wp-content/plugins/pdfjs-viewer-shortcode/inc/../blocks/dist/style.css?ver=2.1.8" type="text/css" media="all">
+<link rel="stylesheet" id="classic-theme-styles-css" href="./wp-includes/css/classic-themes.min.css?ver=1" type="text/css" media="all">
+<style id="global-styles-inline-css" type="text/css">body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;}:where(.is-layout-flex){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}</style>
+<link rel="stylesheet" id="bbp-default-css" href="./wp-content/plugins/bbpress/templates/default/css/bbpress.min.css?ver=2.6.9" type="text/css" media="all">
+<link rel="stylesheet" id="style-css" href="./wp-content/themes/RDK_docs/style.css?ver=6.1.1" type="text/css" media="all">
+<link rel="stylesheet" id="prev-next-css" href="./wp-content/themes/RDK_docs/assets/css/previous-next.css" type="text/css" media="all">
+<link rel="stylesheet" id="header-css" href="./wp-content/themes/RDK_docs/assets/css/header.css" type="text/css" media="all">
+<link rel="stylesheet" id="side_nav_icon-css" href="./wp-content/themes/RDK_docs/assets/css/side_nav_icon.css" type="text/css" media="all">
+<link rel="stylesheet" id="footer-css" href="./wp-content/themes/RDK_docs/assets/css/footer.css" type="text/css" media="all">
+<link rel="stylesheet" id="bootstrapcss-css" href="./wp-content/themes/RDK_docs/assets/css/bootstrap.min.css?ver=6.1.1" type="text/css" media="all">
+<link rel="stylesheet" id="releasesfilterstyle-css" href="./wp-content/themes/RDK_docs/assets/css/release-filter-styles.css" type="text/css" media="all">
+<link rel="stylesheet" id="search-css" href="./wp-content/themes/RDK_docs/assets/css/search.css" type="text/css" media="all">
+<link rel="stylesheet" id="jquery-ui-css" href="./wp-content/themes/RDK_docs/assets/css/jquery-ui.css" type="text/css" media="all">
+<link rel="stylesheet" id="commentsection-css" href="./wp-content/themes/RDK_docs/assets/css/comment-section.css" type="text/css" media="all">
+<link rel="stylesheet" id="magnificpopupcss-css" href="./wp-content/themes/RDK_docs/assets/css/magnific-popup.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="tabletochartstyles-css" href="./wp-content/themes/RDK_docs/assets/css/table-to-chart.css" type="text/css" media="all">
+<link rel="stylesheet" id="multi-select-css" href="./wp-content/themes/RDK_docs/assets/css/jquery.multiselect.css" type="text/css" media="all">
+<link rel="stylesheet" id="custom-login-style-css" href="./wp-content/themes/RDK_docs/assets/css/style-login.css" type="text/css" media="all">
+<link rel="stylesheet" id="registration-style-css" href="./wp-content/themes/RDK_docs/assets/css/registration.css" type="text/css" media="all">
+<link rel="stylesheet" id="SVG-FontIcons-css" href="./wp-content/themes/RDK_docs/assets/css/SVG-FontIcons.css" type="text/css" media="all">
+<link rel="stylesheet" id="redirection-page-css" href="./wp-content/themes/RDK_docs/assets/css/redirection-page.css" type="text/css" media="all">
+<link rel="stylesheet" id="noteblockstyles-css" href="./wp-content/themes/RDK_docs/assets/css/note-block-styles.css" type="text/css" media="all">
+<link rel="stylesheet" id="homepagecss-css" href="./wp-content/themes/RDK_docs/assets/css/home-page.css" type="text/css" media="all">
+<link rel="stylesheet" id="owlcarouselcss-css" href="./wp-content/themes/RDK_docs/assets/css/owl.carousel.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="wpdreams-asl-basic-css" href="./wp-content/plugins/ajax-search-lite/css/style.basic.css?ver=4.11" type="text/css" media="all">
+<link rel="stylesheet" id="wpdreams-ajaxsearchlite-css" href="./wp-content/plugins/ajax-search-lite/css/style-simple-red.css?ver=4.11" type="text/css" media="all">
+<link rel="stylesheet" id="enlighterjs-css" href="./wp-content/plugins/enlighter/cache/X7_enlighterjs.min.css?ver=Z%2FbTmhowULWSvoQ" type="text/css" media="all">
+<script type="text/javascript" src="./wp-includes/js/jquery/jquery.min.js?ver=3.6.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="./wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="./wp-content/themes/RDK_docs/assets/js/page-login.js?ver=6.1.1" id="login-page-script-js"></script>
+<link rel="https://api.w.org/" href="./wp-json/index.html">
+<link rel="alternate" type="application/json" href="./wp-json/wp/v2/pages/11404/index.html">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="./xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="./wp-includes/wlwmanifest.xml">
+<meta name="generator" content="WordPress 6.1.1">
+<link rel="canonical" href="./index.html">
+<link rel="shortlink" href="./index.html">
+<link rel="alternate" type="application/json+oembed" href="./wp-json/oembed/1.0/embed/index.html?url=.%2F%2F">
+<link rel="alternate" type="text/xml+oembed" href="./wp-json/oembed/1.0/embed/index.html?url=.%2F%2F#038;format=xml">
+				<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+				<link rel="preload" as="style" href="//fonts.googleapis.com/css?family=Open+Sans&display=swap">
+				<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans&display=swap" media="all">
+				<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>                <style>div[id*='ajaxsearchlitesettings'].searchsettings .asl_option_inner label {
+						font-size: 0px !important;
+						color: rgba(0, 0, 0, 0);
+					}
+					div[id*='ajaxsearchlitesettings'].searchsettings .asl_option_inner label:after {
+						font-size: 11px !important;
+						position: absolute;
+						top: 0;
+						left: 0;
+						z-index: 1;
+					}
+					.asl_w_container {
+						width: 100%;
+						margin: 0px 0px 0px 0px;
+						min-width: 200px;
+					}
+					div[id*='ajaxsearchlite'].asl_m {
+						width: 100%;
+					}
+					div[id*='ajaxsearchliteres'].wpdreams_asl_results div.resdrg span.highlighted {
+						font-weight: bold;
+						color: #d9312b;
+						background-color: #eee;
+					}
+					div[id*='ajaxsearchliteres'].wpdreams_asl_results .results img.asl_image {
+						width: 70px;
+						height: 70px;
+						object-fit: cover;
+					}
+					div.asl_r .results {
+						max-height: none;
+					}
+				
+						div.asl_r.asl_w.vertical .results .item::after {
+							display: block;
+							position: absolute;
+							bottom: 0;
+							content: '';
+							height: 1px;
+							width: 100%;
+							background: #D8D8D8;
+						}
+						div.asl_r.asl_w.vertical .results .item.asl_last_item::after {
+							display: none;
+						}</style>
+                  <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,500&display=swap" rel="stylesheet">
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>  
+
+  
+</head>
+
+<body class="home page-template page-template-source-home page-template-source-home-php page page-id-11404">
+
+<article>
+<header>
+  <div class="header-cont">
+  <div class="body-overlay" id="bodyBackgroundOverlay"></div>
+  <div id="searchContainter" style="display:none">
+            <script>var sitelist;
+       var users = [{"id":"560","name":"15815519009"},{"id":"285","name":"a-van-der-linden"},{"id":"367","name":"aamalric"},{"id":"115","name":"aautret"},{"id":"587","name":"abdu_raheem"},{"id":"494","name":"abhija-j"},{"id":"77","name":"abhishekkumar"},{"id":"434","name":"achataignier"},{"id":"172","name":"achinnaiyan"},{"id":"209","name":"achitral"},{"id":"174","name":"achum"},{"id":"538","name":"acoimbatorebalaji"},{"id":"675","name":"adam"},{"id":"603","name":"adelaney"},{"id":"701","name":"aferraris"},{"id":"142","name":"agarrido"},{"id":"584","name":"agovind"},{"id":"619","name":"agvieira"},{"id":"373","name":"aimee_qiu"},{"id":"397","name":"aingulets"},{"id":"103","name":"aishwariya-b"},{"id":"687","name":"aiwangfeng"},{"id":"27","name":"ajames"},{"id":"507","name":"akhil-m2tataelxsi-co-in"},{"id":"685","name":"akshatha-m1"},{"id":"625","name":"akshay-j1"},{"id":"577","name":"akshay-j1tataelxsi-co-in"},{"id":"315","name":"akzare"},{"id":"505","name":"alennykk"},{"id":"361","name":"alkis-gkouzias"},{"id":"574","name":"alphy-p"},{"id":"305","name":"alsameema_ahmedansarcomcast-com"},{"id":"284","name":"alvin-kuo"},{"id":"740","name":"am-mitkaritcs-com"},{"id":"671","name":"amar_chand"},{"id":"341","name":"amar-chandalitech-com"},{"id":"178","name":"amarimuthu"},{"id":"330","name":"amathewk"},{"id":"585","name":"amitwarbhe"},{"id":"470","name":"amusichin"},{"id":"149","name":"anathoo"},{"id":"500","name":"andreas-erler"},{"id":"394","name":"andy_zhong"},{"id":"353","name":"anjithapaulose"},{"id":"66","name":"ankit-garg"},{"id":"693","name":"anne-radhakrishna"},{"id":"699","name":"anne-radhakrishnagmail-com"},{"id":"268","name":"ansu-lim"},{"id":"166","name":"apastuchov"},{"id":"229","name":"apoogupt"},{"id":"180","name":"apriev"},{"id":"102","name":"aramaseshan"},{"id":"450","name":"aravind-h"},{"id":"82","name":"arckanjo"},{"id":"319","name":"arkadiusz-radon"},{"id":"694","name":"arthur-cc-huang"},{"id":"65","name":"arun-m1"},{"id":"653","name":"arunraj-ar"},{"id":"713","name":"asbarla"},{"id":"333","name":"ashfreesat"},{"id":"597","name":"ashraf_bhanucomcast-com"},{"id":"418","name":"asim"},{"id":"105","name":"asingh"},{"id":"573","name":"asmit"},{"id":"140","name":"asubramanyam"},{"id":"181","name":"atabul"},{"id":"420","name":"athikrishnarao-rajansmardtv-com"},{"id":"109","name":"atran"},{"id":"183","name":"atsai01"},{"id":"133","name":"avadakkoot"},{"id":"198","name":"avenugopal"},{"id":"167","name":"azawadzki"},{"id":"490","name":"b-shanmugasundaram"},{"id":"323","name":"ba-leelanaidutataelxsi-com"},{"id":"429","name":"ba-ramakrishnan"},{"id":"480","name":"babitha-p"},{"id":"647","name":"barla-vivek"},{"id":"468","name":"barry_mcmillancable-comcast-com"},{"id":"312","name":"bart-nys"},{"id":"185","name":"bblack"},{"id":"95","name":"bcatrysse01"},{"id":"661","name":"behrad"},{"id":"722","name":"ben_straub"},{"id":"559","name":"bhanushree-stataelxsi-co-in"},{"id":"288","name":"biju"},{"id":"426","name":"billshepp"},{"id":"424","name":"bindu"},{"id":"318","name":"bing-jiang"},{"id":"402","name":"binu_inbaraj"},{"id":"659","name":"bishwa"},{"id":"741","name":"blessysara-j"},{"id":"327","name":"bmaria645"},{"id":"176","name":"bmendiratta"},{"id":"726","name":"bob_wu"},{"id":"565","name":"bodduvenkata-ptataelxsi-co-in"},{"id":"658","name":"bradley-timminsnbcuni-com"},{"id":"501","name":"bradleytimmins"},{"id":"469","name":"brian-chowsky-uk"},{"id":"270","name":"bruce_tsai"},{"id":"611","name":"btimmins"},{"id":"260","name":"bzmood"},{"id":"193","name":"c-deependra-rawat"},{"id":"207","name":"c-daddio"},{"id":"72","name":"c-sicilia"},{"id":"515","name":"caiortp"},{"id":"595","name":"caozhengyang"},{"id":"282","name":"carl-pickering"},{"id":"216","name":"cclark"},{"id":"252","name":"cdelsordo"},{"id":"399","name":"cedric-bouchon"},{"id":"442","name":"cesar-gomes"},{"id":"639","name":"chaitanya-mahanthi"},{"id":"691","name":"chaithanyasudhatataelxsi-co-in"},{"id":"345","name":"chandrakanth_pokurucomcast-com"},{"id":"303","name":"changeway"},{"id":"519","name":"charles-su"},{"id":"278","name":"charlie-obrien"},{"id":"273","name":"chengta_lee"},{"id":"570","name":"chenting"},{"id":"267","name":"chetan_kamat"},{"id":"460","name":"chou"},{"id":"711","name":"chris-boraski"},{"id":"335","name":"chris-delsordocommscope-com"},{"id":"448","name":"chris-maloney"},{"id":"631","name":"christian-lucas"},{"id":"623","name":"chumaksergiy"},{"id":"393","name":"claudiu-bugeacasperitas-solutions-com"},{"id":"571","name":"clay_simmonscomcast-com"},{"id":"215","name":"cmartin01"},{"id":"265","name":"contralyuser"},{"id":"532","name":"cooper"},{"id":"286","name":"cpokuru"},{"id":"324","name":"craigblackburnbyu"},{"id":"210","name":"cturner01"},{"id":"586","name":"cvdlindenlibertyglobal-com"},{"id":"251","name":"cwang"},{"id":"159","name":"cwilson"},{"id":"165","name":"cwimmer"},{"id":"192","name":"dan_chang"},{"id":"62","name":"darhaywa"},{"id":"692","name":"dariusz-zielinski"},{"id":"121","name":"dbye"},{"id":"153","name":"dcrandall"},{"id":"175","name":"ddas"},{"id":"412","name":"deepak-jha01"},{"id":"239","name":"deepika-b"},{"id":"383","name":"degger"},{"id":"291","name":"deon-d"},{"id":"447","name":"dersanli"},{"id":"354","name":"devi-a"},{"id":"416","name":"dhanya_ravindran01"},{"id":"665","name":"dhinesh-g"},{"id":"663","name":"dhsiao"},{"id":"279","name":"digvijay-chauhan"},{"id":"552","name":"dineshkumar-d1"},{"id":"724","name":"dominic-allen116"},{"id":"719","name":"dominicr"},{"id":"634","name":"douglas-passos-lima"},{"id":"670","name":"dparker23"},{"id":"150","name":"drizvi"},{"id":"615","name":"dtpoirot"},{"id":"457","name":"duanxijian"},{"id":"208","name":"duraisam"},{"id":"224","name":"dwilde"},{"id":"259","name":"dxjones"},{"id":"608","name":"e-savidha"},{"id":"496","name":"eberry"},{"id":"135","name":"ebiancarelli"},{"id":"466","name":"edvin-lindqvistforsway-com"},{"id":"419","name":"edwin_weng"},{"id":"356","name":"edwin-c"},{"id":"423","name":"edwincb"},{"id":"179","name":"ekvetny"},{"id":"630","name":"enhering"},{"id":"200","name":"eric-dowek"},{"id":"201","name":"esmond_hsu"},{"id":"446","name":"fabian-kraft1"},{"id":"390","name":"fabio-silva"},{"id":"498","name":"fabrice-faure30"},{"id":"346","name":"fireboltportalgmail-com"},{"id":"621","name":"flesaout"},{"id":"554","name":"floz"},{"id":"101","name":"francoisbussery"},{"id":"454","name":"fraser-benjamin"},{"id":"55","name":"gabraham"},{"id":"433","name":"ganesh-selvaraj"},{"id":"487","name":"gang-zhang"},{"id":"550","name":"gaoxiang-xiong"},{"id":"732","name":"gary-sutcliffe"},{"id":"61","name":"gayathri-krishnan"},{"id":"98","name":"genny-aprea"},{"id":"590","name":"german-galviszemoga-com"},{"id":"683","name":"ggreene"},{"id":"74","name":"gilles-printemps"},{"id":"547","name":"girish_tc"},{"id":"581","name":"girish_tcrccfiber-com"},{"id":"86","name":"giuseppe-ieno"},{"id":"539","name":"gjkottackal"},{"id":"304","name":"gkovelman"},{"id":"116","name":"gkrishnan01"},{"id":"125","name":"gmartinez"},{"id":"205","name":"gmayor"},{"id":"473","name":"goncalo-m-gomes"},{"id":"646","name":"gopinath-chandran"},{"id":"451","name":"gopinathv"},{"id":"403","name":"gordonlo"},{"id":"302","name":"gp"},{"id":"306","name":"gpsynamedia-com"},{"id":"717","name":"gparry"},{"id":"368","name":"gpsriramprabu"},{"id":"191","name":"gurcharan-nijjer"},{"id":"71","name":"gvader"},{"id":"70","name":"gvader2"},{"id":"258","name":"gweissman"},{"id":"127","name":"gyan"},{"id":"93","name":"h-sainul"},{"id":"712","name":"haktan-cengiz"},{"id":"656","name":"haoyongxinhualaikeji-com"},{"id":"618","name":"hareesha-lagidi"},{"id":"483","name":"hari22-yuva"},{"id":"196","name":"harikrishnan-p"},{"id":"351","name":"haritha-k"},{"id":"594","name":"hauv2018"},{"id":"508","name":"heam-kumarltts-com"},{"id":"436","name":"hjsmith67"},{"id":"666","name":"hlee04"},{"id":"616","name":"ho-baek"},{"id":"742","name":"hossein"},{"id":"290","name":"hsreelal"},{"id":"107","name":"hteece"},{"id":"563","name":"hunter"},{"id":"263","name":"ian-nock"},{"id":"250","name":"ian-turner"},{"id":"703","name":"ibrahim539"},{"id":"374","name":"ijacinto"},{"id":"83","name":"immaneni-kanthikiran"},{"id":"735","name":"iptvspocbcndigitaltv-com"},{"id":"339","name":"ishwarya-v4"},{"id":"411","name":"jack_lin"},{"id":"578","name":"jacob"},{"id":"298","name":"james_dunn2"},{"id":"715","name":"jan-myslivecek"},{"id":"372","name":"janani-v"},{"id":"75","name":"jared_huang"},{"id":"276","name":"javier-morgadeieee-org"},{"id":"352","name":"jayaram-s"},{"id":"106","name":"jbett"},{"id":"376","name":"jc"},{"id":"568","name":"jchen04"},{"id":"104","name":"jchoi"},{"id":"182","name":"jdiazmartinez"},{"id":"320","name":"jean-ginestiere"},{"id":"537","name":"jesus-gomez"},{"id":"143","name":"jfrey01"},{"id":"624","name":"jgfonseca"},{"id":"145","name":"jhaberfellner"},{"id":"465","name":"jiongmu-zhou"},{"id":"245","name":"jisha-m"},{"id":"160","name":"jjeong"},{"id":"148","name":"jkao"},{"id":"114","name":"jlawton"},{"id":"117","name":"jlim01"},{"id":"189","name":"jlin"},{"id":"138","name":"jlindquist"},{"id":"702","name":"jliu01"},{"id":"223","name":"jmcbrayne"},{"id":"504","name":"joachim-bodensohn"},{"id":"609","name":"joao-guerreiro"},{"id":"213","name":"joao-rodrigues"},{"id":"435","name":"john-bean"},{"id":"99","name":"john-pomeroy"},{"id":"650","name":"josekutty_kuriakose"},{"id":"700","name":"josekutty_kuriakosecable-comcast-com"},{"id":"328","name":"joseph_ruzzicomcast-com"},{"id":"657","name":"jous-chan"},{"id":"64","name":"jp-cleona"},{"id":"430","name":"jp-patel"},{"id":"548","name":"jpark04"},{"id":"528","name":"jpginocchio"},{"id":"266","name":"jruzzi"},{"id":"428","name":"jsaji"},{"id":"497","name":"jsohnlein"},{"id":"640","name":"julien-tanguy"},{"id":"509","name":"julien-tanguywiztivi-com"},{"id":"449","name":"justin-morriskaleidescape-com"},{"id":"60","name":"justin-ware"},{"id":"477","name":"k-plata"},{"id":"610","name":"kabildev-p"},{"id":"677","name":"kamal-koshy"},{"id":"668","name":"kanagasingadurai-v"},{"id":"92","name":"karan-negi"},{"id":"408","name":"karl-rousseau"},{"id":"602","name":"karsri1999"},{"id":"739","name":"karthick_somasundaresan2"},{"id":"100","name":"karthika-a"},{"id":"530","name":"kathiravan_chinnadurai"},{"id":"293","name":"kathiravan-s"},{"id":"431","name":"kathiravan-sltts-com"},{"id":"633","name":"kaviya-kumaresan"},{"id":"389","name":"kedar-patki"},{"id":"620","name":"keerthana-p"},{"id":"534","name":"keerthi-venkatanaga"},{"id":"556","name":"kencc_yang"},{"id":"392","name":"kevingodfrey-verpula"},{"id":"642","name":"kgn-022"},{"id":"520","name":"khanfirnoureddine"},{"id":"311","name":"kiran-kumar2"},{"id":"336","name":"kirill-zut"},{"id":"238","name":"kiruthiga-e"},{"id":"384","name":"kiwin"},{"id":"161","name":"kkershaw"},{"id":"485","name":"klehr"},{"id":"662","name":"knayakmaxlinear-com"},{"id":"592","name":"kuldeep-gupta"},{"id":"254","name":"kunalkotecha3"},{"id":"521","name":"kurt-kronschnabl"},{"id":"688","name":"kurtwestphal"},{"id":"348","name":"kwjeong"},{"id":"147","name":"kxu"},{"id":"736","name":"lakshmi-r1tataelxsi-co-in"},{"id":"80","name":"lars-duennwald"},{"id":"387","name":"lars-feyaerts"},{"id":"214","name":"lavanya-s"},{"id":"370","name":"lbentaleb"},{"id":"146","name":"lcoleman"},{"id":"249","name":"lennert-deswaef"},{"id":"439","name":"lewispeel83"},{"id":"583","name":"lgarnett45yahoo-com"},{"id":"614","name":"liam-clark"},{"id":"417","name":"linda_li"},{"id":"525","name":"linjj"},{"id":"478","name":"liujh"},{"id":"168","name":"ljohnson01"},{"id":"141","name":"llee"},{"id":"137","name":"lpham"},{"id":"580","name":"ltrayanovrccfiber-com"},{"id":"378","name":"lukasz-wasylyk"},{"id":"343","name":"lynn-birch"},{"id":"721","name":"madhavi"},{"id":"499","name":"makarov"},{"id":"269","name":"mallikarjunmtataelxsi-co-in"},{"id":"617","name":"manigandanj"},{"id":"386","name":"manish_dharanenthiran"},{"id":"600","name":"marc-pondaccenture-com"},{"id":"576","name":"marek_piechaczek"},{"id":"299","name":"mark-diseveria"},{"id":"63","name":"mark-welch"},{"id":"564","name":"markus-hoecknerocilion-com"},{"id":"705","name":"matrixchou"},{"id":"698","name":"matt_barbour"},{"id":"313","name":"mattias-blomqvist"},{"id":"381","name":"max-lajauskas"},{"id":"219","name":"mbaruch"},{"id":"112","name":"mcostello"},{"id":"123","name":"mcridge"},{"id":"495","name":"mdolina"},{"id":"366","name":"memphis-chung"},{"id":"256","name":"mhabrat"},{"id":"334","name":"michel-lehenaff"},{"id":"599","name":"mike_finecable-comcast-com"},{"id":"709","name":"mikko-jaakkola"},{"id":"211","name":"min-9-zhang"},{"id":"546","name":"misha-mtataelxsi-co-in"},{"id":"169","name":"mkkc"},{"id":"218","name":"mkrishna"},{"id":"551","name":"mlajauskas01"},{"id":"155","name":"mlevandowski"},{"id":"203","name":"mm1t"},{"id":"364","name":"mohamed-habib-mallek"},{"id":"281","name":"mohamed-jaafar-vp"},{"id":"664","name":"mohammad-imran_irdeto"},{"id":"491","name":"mohammad-naseem"},{"id":"728","name":"mohammed-tariqconsult-red"},{"id":"375","name":"mohanaacharib"},{"id":"674","name":"mortadha-tastouriirdeto-com"},{"id":"94","name":"mr-karpurapu"},{"id":"89","name":"msevak"},{"id":"173","name":"mstrasburger"},{"id":"377","name":"mudekrishna-naick"},{"id":"506","name":"mukesh_kumar2comcast-com"},{"id":"714","name":"myslivecek-jan"},{"id":"321","name":"naalbuquerque"},{"id":"513","name":"nagverma"},{"id":"67","name":"nandyalap"},{"id":"11","name":"narayanaswamy"},{"id":"414","name":"nathanaelcovatic-com"},{"id":"221","name":"nbarcohx"},{"id":"474","name":"nchari"},{"id":"331","name":"neenu-c"},{"id":"422","name":"neenu07"},{"id":"479","name":"nf-stephan"},{"id":"512","name":"nicki-hsieh"},{"id":"743","name":"nicki-hsiehubeeinteractive-com"},{"id":"59","name":"nitin-patet"},{"id":"673","name":"nitya-mtataelxsi-co-in"},{"id":"489","name":"nivedha_jayanthi2"},{"id":"187","name":"nlaunet"},{"id":"396","name":"nmmartins"},{"id":"649","name":"noah-thederahn"},{"id":"582","name":"noah-thederahnaccenture-com"},{"id":"294","name":"nsebag"},{"id":"220","name":"nuno-barros5"},{"id":"410","name":"nuno-sebastiaoovyo-com"},{"id":"338","name":"nvaidya"},{"id":"380","name":"o-v-ponomarenko"},{"id":"120","name":"ocarmona"},{"id":"119","name":"ocrete"},{"id":"90","name":"ojazmin"},{"id":"262","name":"orycterope"},{"id":"453","name":"owen"},{"id":"591","name":"p-poukh"},{"id":"342","name":"paulsokol"},{"id":"177","name":"pchandra01"},{"id":"29","name":"pdas"},{"id":"132","name":"pdesai"},{"id":"472","name":"peter-thompson"},{"id":"128","name":"pghanghas"},{"id":"79","name":"pgupta408"},{"id":"113","name":"phalliday"},{"id":"152","name":"phiggs"},{"id":"641","name":"philip-james"},{"id":"217","name":"phuang"},{"id":"158","name":"pmenant"},{"id":"655","name":"pradeep_raveendranpillai"},{"id":"415","name":"pradeep-pillai01"},{"id":"596","name":"pradeep-s1"},{"id":"544","name":"prashant_patil09"},{"id":"355","name":"pratheeshtktataelxsi-co-in"},{"id":"458","name":"pravinkumar"},{"id":"729","name":"preetha_en"},{"id":"272","name":"priyadharshini-v"},{"id":"88","name":"priyankaa-kvb"},{"id":"144","name":"psule"},{"id":"275","name":"punam-ktataelxsi-co-in"},{"id":"190","name":"pwang01"},{"id":"78","name":"qingqing-yang"},{"id":"308","name":"qthuy1"},{"id":"536","name":"r-gawade"},{"id":"391","name":"r-gawadetcs-com"},{"id":"197","name":"r-vanbrenk"},{"id":"461","name":"rafeequekc"},{"id":"562","name":"rahul-k2tataelxsi-co-in"},{"id":"297","name":"rahul-kumar1"},{"id":"553","name":"rajagopal-s02"},{"id":"632","name":"rajakumaran-a"},{"id":"289","name":"rajesh-chillal"},{"id":"301","name":"rajeshjose"},{"id":"309","name":"rajeshrm"},{"id":"425","name":"raju-krishnan"},{"id":"277","name":"rakeshconverbiz-com"},{"id":"672","name":"rakhy-p"},{"id":"471","name":"ram"},{"id":"385","name":"rameshr"},{"id":"475","name":"ramstadtqti-qualcomm-com"},{"id":"280","name":"ravindra1235"},{"id":"151","name":"rchaudhary"},{"id":"706","name":"rdkzhang"},{"id":"225","name":"rdrisko"},{"id":"707","name":"reinoud-koornstra"},{"id":"745","name":"releases"},{"id":"689","name":"rense_jacob2"},{"id":"274","name":"reshma-s2tataelxsi-co-in"},{"id":"612","name":"reshmikr"},{"id":"613","name":"richard-holme"},{"id":"522","name":"richardle1988"},{"id":"85","name":"rinee-k"},{"id":"481","name":"riyazbasha-v"},{"id":"156","name":"rjain"},{"id":"110","name":"rjohnston"},{"id":"690","name":"rjoseph"},{"id":"139","name":"rkumar"},{"id":"124","name":"rmanoharan"},{"id":"697","name":"rmoore"},{"id":"575","name":"robert-semaskeviccujo-com"},{"id":"462","name":"robin-rajamony"},{"id":"716","name":"robosoft-rdk"},{"id":"264","name":"rogerio-nunes"},{"id":"635","name":"romas-kriauciukas"},{"id":"283","name":"ron-ripley"},{"id":"503","name":"ronald-dadds"},{"id":"261","name":"ronaldo-nuneztechnicolor-com"},{"id":"540","name":"roshitha-m"},{"id":"253","name":"rseamon"},{"id":"409","name":"rsharma02"},{"id":"667","name":"rsharpe"},{"id":"154","name":"rshastry"},{"id":"226","name":"rsuero"},{"id":"257","name":"rtayal"},{"id":"476","name":"rudra-subudhiltts-com"},{"id":"163","name":"rvelpuri"},{"id":"463","name":"rvojtko"},{"id":"230","name":"rwachtfogel"},{"id":"569","name":"ryan-kroetch"},{"id":"456","name":"ryan-m"},{"id":"557","name":"s-dharanishaaccenture-com"},{"id":"413","name":"s-piyush1"},{"id":"486","name":"sai-pothanabroadcom-com"},{"id":"242","name":"saikiran"},{"id":"606","name":"saivardhan-reddygari"},{"id":"340","name":"salam"},{"id":"718","name":"sanagarajan-contractor"},{"id":"558","name":"sandeep-guddekoppasuresh"},{"id":"228","name":"sandhya-chaudhary"},{"id":"696","name":"sangel"},{"id":"651","name":"sankaran_karthikeyan"},{"id":"379","name":"saran-v"},{"id":"427","name":"saravanan-va"},{"id":"601","name":"sateeshkumar-kodi"},{"id":"588","name":"saurabh-kumar"},{"id":"84","name":"sbarrett"},{"id":"271","name":"sblee"},{"id":"91","name":"sbrar01"},{"id":"605","name":"schakohlfoxxum-com"},{"id":"171","name":"scho01"},{"id":"231","name":"schung"},{"id":"572","name":"sebastian-mader"},{"id":"199","name":"sekharnadiminti"},{"id":"482","name":"selvaraj-m"},{"id":"579","name":"sergey-tereskchenko"},{"id":"222","name":"sganesh"},{"id":"134","name":"sgehring"},{"id":"686","name":"shaik_rahim"},{"id":"329","name":"shalini-jainsky-uk"},{"id":"363","name":"shamanthakumar-pr"},{"id":"680","name":"shanewinnovsys-com"},{"id":"314","name":"shanmukh"},{"id":"382","name":"shannon_chuang"},{"id":"531","name":"shaoyang"},{"id":"733","name":"shashikumar-chalawadi"},{"id":"654","name":"shekhar-beesutcs-com"},{"id":"488","name":"shenyuanhao"},{"id":"626","name":"shilpa-sn"},{"id":"681","name":"shinji-hoshinoaccess-company-com"},{"id":"73","name":"shl0309"},{"id":"344","name":"shruthi-s1"},{"id":"543","name":"simim"},{"id":"727","name":"sipra_samantaray2comcast-com"},{"id":"365","name":"sipra-s"},{"id":"247","name":"sireesh-vamadevan"},{"id":"593","name":"sivagami_rasu"},{"id":"307","name":"sivakumar-c"},{"id":"636","name":"sjolly"},{"id":"162","name":"sjung"},{"id":"295","name":"skim-contractor"},{"id":"164","name":"skim05"},{"id":"233","name":"smariti_dobhal"},{"id":"467","name":"smcinerney"},{"id":"255","name":"smi73"},{"id":"566","name":"smita-m-dhaduti"},{"id":"464","name":"snair"},{"id":"669","name":"solardreamer"},{"id":"440","name":"song-zhaoamlogic-com"},{"id":"679","name":"sowmya-venkobe"},{"id":"69","name":"spokorysio"},{"id":"122","name":"srampur"},{"id":"643","name":"sravani-dandiboina"},{"id":"310","name":"sravanthi_peta"},{"id":"542","name":"sravanthi-chakilela"},{"id":"204","name":"sreenivas-pachva"},{"id":"108","name":"sreichgott"},{"id":"561","name":"srikanth_palvai"},{"id":"527","name":"srikanth-palvai"},{"id":"710","name":"srini-raot-systems-com"},{"id":"188","name":"srinivas-k"},{"id":"432","name":"sriswati_varahagiricomcast-com"},{"id":"371","name":"sriswati-varahagiri"},{"id":"604","name":"ssalam"},{"id":"737","name":"ssarathb"},{"id":"130","name":"sso"},{"id":"325","name":"ssubramanian"},{"id":"648","name":"ssuman"},{"id":"484","name":"stamatis-kapetanios"},{"id":"518","name":"stella-su"},{"id":"637","name":"steve-ford"},{"id":"398","name":"steve-turner"},{"id":"240","name":"sudhagar-ve"},{"id":"322","name":"sudhagar-vetcs-com"},{"id":"514","name":"sudheer-s"},{"id":"300","name":"suhesh-sudhakaran"},{"id":"589","name":"sukanya-i"},{"id":"81","name":"sumitdeveloper94"},{"id":"292","name":"surajmathew"},{"id":"652","name":"surya"},{"id":"455","name":"suryakavis"},{"id":"388","name":"swapna-pallemonitv2z-com"},{"id":"730","name":"sylee"},{"id":"184","name":"syou01"},{"id":"678","name":"szshih"},{"id":"492","name":"tarungoswami"},{"id":"136","name":"tchristensen"},{"id":"246","name":"terry_lin"},{"id":"523","name":"the-aparker"},{"id":"317","name":"thiago-navarro"},{"id":"332","name":"thirubalaji-somasundaram"},{"id":"362","name":"thomasneoanderson"},{"id":"287","name":"thopewell"},{"id":"684","name":"thoundoggmail-com"},{"id":"676","name":"tkacik"},{"id":"443","name":"tkacikantik-sk"},{"id":"126","name":"tkang"},{"id":"704","name":"tlakshmansundeep"},{"id":"734","name":"tomasz-bobowski"},{"id":"444","name":"tomasz-schwabe"},{"id":"445","name":"tone-kastlungerwiztivi-com"},{"id":"708","name":"tony-he"},{"id":"628","name":"tonyhe"},{"id":"421","name":"troy-moure"},{"id":"68","name":"tunglamdinh"},{"id":"695","name":"ufs"},{"id":"549","name":"ujjawal-chaturvedi"},{"id":"296","name":"uppadaravi2511"},{"id":"244","name":"vaishnavi"},{"id":"598","name":"varsha-p"},{"id":"644","name":"varshagayathri-p"},{"id":"118","name":"vchong"},{"id":"517","name":"vedant-srivastava"},{"id":"212","name":"venkataprasad-k"},{"id":"723","name":"vgosine"},{"id":"744","name":"vgosine_ctrlit"},{"id":"131","name":"vgrishin"},{"id":"511","name":"vic-lin"},{"id":"452","name":"vidhyalakshmi-s"},{"id":"195","name":"vijayaragavalus"},{"id":"441","name":"vijayasanjana-rajendrantechnicolor-com"},{"id":"645","name":"vijith-tv"},{"id":"524","name":"viktor-osipov"},{"id":"326","name":"vinaykrishna-e"},{"id":"738","name":"vineet_sethcomcast-com"},{"id":"533","name":"vineeth_shankar"},{"id":"555","name":"vinod_sathyaseelan"},{"id":"243","name":"vinusha"},{"id":"493","name":"vivek-j"},{"id":"510","name":"vivekp9922"},{"id":"202","name":"vkazia"},{"id":"157","name":"vmishra01"},{"id":"248","name":"vs"},{"id":"437","name":"vundelapavankumar"},{"id":"194","name":"wahoskem"},{"id":"720","name":"wangxiaowei01skyworth-com"},{"id":"502","name":"wayne-kuowpi-group-com"},{"id":"682","name":"wenjun-guan"},{"id":"401","name":"wentao-ma"},{"id":"96","name":"whliao-tw"},{"id":"111","name":"wilber-hernandez"},{"id":"241","name":"wilson-v"},{"id":"337","name":"wiselord"},{"id":"87","name":"wittmanna"},{"id":"638","name":"wj-moh"},{"id":"170","name":"wlally"},{"id":"567","name":"wojciechprzybyl"},{"id":"129","name":"wvboesschoten"},{"id":"526","name":"xinx"},{"id":"459","name":"xuweijie"},{"id":"660","name":"yadavrajan2021"},{"id":"395","name":"yang_yang"},{"id":"629","name":"yanhou"},{"id":"627","name":"yanina-husarevych"},{"id":"725","name":"yawming-ym-chan"},{"id":"206","name":"ybingol"},{"id":"186","name":"yfu"},{"id":"400","name":"yichao-guan"},{"id":"545","name":"yichin-wu"},{"id":"516","name":"yiwang"},{"id":"3","name":"ymaharana"},{"id":"731","name":"younes"},{"id":"369","name":"yun5"},{"id":"316","name":"zengjuan"},{"id":"535","name":"zhanfei-yang"},{"id":"541","name":"zhangwei"},{"id":"227","name":"zhuang"},{"id":"438","name":"zhuzhipengskyworth-com"},{"id":"529","name":"zlcomand"},{"id":"607","name":"zy-zheng"},{"id":"622","name":"zzzaaa12"}];
+       var alluser = ["560","285","367","115","587","494","77","434","172","209","174","538","675","603","701","142","584","619","373","397","103","687","27","507","685","625","577","315","505","361","574","305","284","740","671","341","178","330","585","470","149","500","394","353","66","693","699","268","166","229","180","102","450","82","319","694","65","653","713","333","597","418","105","573","140","181","420","109","183","133","198","167","490","323","429","480","647","468","312","185","95","661","722","559","288","426","424","318","402","659","741","327","176","726","565","658","501","469","270","611","260","193","207","72","515","595","282","216","252","399","442","639","691","345","303","519","278","273","570","267","460","711","335","448","631","623","393","571","215","265","532","286","324","210","586","251","159","165","192","62","692","121","153","175","412","239","383","291","447","354","416","665","663","279","552","724","719","634","670","150","615","457","208","224","259","608","496","135","466","419","356","423","179","630","200","201","446","390","498","346","621","554","101","454","55","433","487","550","732","61","98","590","683","74","547","581","86","539","304","116","125","205","473","646","451","403","302","306","717","368","191","71","70","258","127","93","712","656","618","483","196","351","594","508","436","666","616","742","290","107","563","263","250","703","374","83","735","339","411","578","298","715","372","75","276","352","106","376","568","104","182","320","537","143","624","145","465","245","160","148","114","117","189","138","702","223","504","609","213","435","99","650","700","328","657","64","430","548","528","266","428","497","640","509","449","60","477","610","677","668","92","408","602","739","100","530","293","431","633","389","620","534","556","392","642","520","311","336","238","384","161","485","662","592","254","521","688","348","147","736","80","387","214","370","146","249","439","583","614","417","525","478","168","141","137","580","378","343","721","499","269","617","386","600","576","299","63","564","705","698","313","381","219","112","123","495","366","256","334","599","709","211","546","169","218","551","155","203","364","281","664","491","728","375","674","94","89","173","377","506","714","321","513","67","11","414","221","474","331","422","479","512","743","59","673","489","187","396","649","582","294","220","410","338","380","120","119","90","262","453","591","342","177","29","132","472","128","79","113","152","641","217","158","655","415","596","544","355","458","729","272","88","144","275","190","78","308","536","391","197","461","562","297","553","632","289","301","309","425","277","672","471","385","475","280","151","706","225","707","745","689","274","612","613","522","85","481","156","110","690","139","124","697","575","462","716","264","635","283","503","261","540","253","409","667","154","226","257","476","163","463","230","569","456","557","413","486","242","606","340","718","558","228","696","651","379","427","601","588","84","271","91","605","171","231","572","199","482","579","222","134","686","329","363","680","314","382","531","733","654","488","626","681","73","344","543","727","365","247","593","307","636","162","295","164","233","467","255","566","464","669","440","679","69","122","643","310","542","204","108","561","527","710","188","432","371","604","737","130","325","648","484","518","637","398","240","322","514","300","589","81","292","652","455","388","730","184","678","492","136","246","523","317","332","362","287","684","676","443","126","704","734","444","445","708","628","421","68","695","549","296","244","598","644","118","517","212","723","744","131","511","452","195","441","645","524","326","738","533","555","243","493","510","202","157","248","437","194","720","502","682","401","96","111","241","337","87","638","170","567","129","526","459","660","395","629","627","725","206","186","400","545","516","3","731","369","316","535","541","227","438","529","607","622"];
+       var currentsite = 7;
+       var searchLink = ".\/\/wp-admin\/admin-ajax.php";
+       var sites = [{"blog_id":"1","name":"RDK Documentation Portal"},{"blog_id":"7","name":"Source"},{"blog_id":"12","name":"Documentation"},{"blog_id":"13","name":"Apps"},{"blog_id":"15","name":"Support"},{"blog_id":"17","name":"Devices"},{"blog_id":"19","name":"Preview"},{"blog_id":"20","name":"Tools & Certification"}];</script>
+
+<div class="fluid-container ">
+    <div class="row pl-2 pr-2 pb-3 search-input-container ">
+        <div class="col search-margin">
+            <div class="inputSearch ui-widget">
+                <span class="search-logo"></span>
+                <input type="text" id="custom-search" onsearch="triggerSearch()" data-search-url=".\/\/wp-admin\/admin-ajax.php" placeholder="Type here to search" name="s">
+                 <span onclick="searchClear()"></span>
+            </div>
+        </div>
+    </div>
+    <div class="row mr-0 ml-0  mb-3  justify-content-center">
+        <div class="col-12 col-md-3" id="dataFilter">
+            <p class="head" onclick="a()">Filters</p>
+            <select id="authorFilterSelect" placeholder="Contributor" multiple>
+
+            </select>
+            <select class="mt-2" id="platformFilterSelect" placeholder="Platform" multiple>
+
+            </select>
+            <select class="mt-2" id="typeFilterSelect" placeholder="Type" multiple>
+                <option value="page">page</option>
+                <option value="attachment">attachement</option>
+                <option value="post">Post</option>
+                <option value="forum">Forum</option>
+            </select>
+            <select class="mt-4" onchange="dateFilterChange()" id="dateFilterSelect">
+                <option selected disabled value="">Date</option>
+                <option value="-1">The past day</option>
+                <option value="-7">The past week</option>
+                <option value="-30">The past month</option>
+                <option value="-365">The past year</option>
+                <option value="">Any time</option>
+            </select>
+        </div>
+        <div class="col-12 col-md-9 m-0 p-0 searchImg" id="datafetch">
+            <p class="search-count"></p>
+            <div id="scorll" class="scrollable">
+            </div>
+        </div>
+    </div>
+</div>
+
+  </div>
+    <div class="header-wrap-level-one">
+      <div class="header-container-level-one">
+        <div class="rdk-logo col-lg-2"><a href="https://rdkcentral.com/" target="_blank"><img id="rdkLogo" src="./wp-content/themes/RDK_docs/assets/images/Header/rdk_central_logo.png"></a></div>
+        <div class="header-menu-level-one col-lg-8 header-menu-align">
+         <nav id="headerLevelOne" class="header-nav-one navbar navbar-expand-sm justify-content-between">      
+            <ul id="menu-header-level-one" class="navbar-nav flex-grow-1 header-nav-level-one flex-xl-row flex-sm-column">
+<li id="menu-item-26" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-26 nav-item"><a href="./index.html" class="nav-link active-link">Source</a></li>
+<li id="menu-item-5764" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5764 nav-item"><a href="https://34.214.27.93/documentation/" class="nav-link">Documentation</a></li>
+<li id="menu-item-5769" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5769 nav-item"><a href="https://34.214.27.93/devices/" class="nav-link">Devices</a></li>
+<li id="menu-item-5765" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5765 nav-item"><a href="https://34.214.27.93/apps/" class="nav-link">Apps</a></li>
+<li id="menu-item-5766" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5766 nav-item"><a href="https://34.214.27.93/tools-certification/" class="nav-link">Tools &#038; Certification</a></li>
+<li id="menu-item-5768" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5768 nav-item"><a href="https://34.214.27.93/preview-rdk/" class="nav-link">Preview RDK</a></li>
+<li id="menu-item-6326" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6326 nav-item"><a href="https://34.214.27.93/support" class="nav-link">Support</a></li>
+</ul>          </nav>
+          <div class="mob-login-cont"><button class="mob-login-btn" data-toggle="modal" data-target="#loginModal" data-link="https://34.214.27.93/" type="button" width="50%">Login</button></div>
+        </div>
+        <div class="search-container">
+          <div class="d-flex justify-content-end">
+                <div id="searchIcon" class="search-icon"></div>
+                      
+            
+            <!--<button class="login-btn" data-link="https://34.214.27.93/" data-toggle="modal" data-target="#loginModal" type="button" width="50%">Login</button>-->
+                      </div>
+        </div>
+        <div class="mobile-menu">
+          <span class="menu-bar"></span>
+          <span class="menu-bar"></span>
+          <span class="menu-bar"></span>
+        </div>
+      </div>
+    </div>
+      </div>
+  <div class="logout-container">
+    <div class="modal fade" id="logoutModal" role="dialog">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content logout-content">
+            
+            <div class="logout-wrap">
+            <div class="close-icon" data-dismiss="modal"><img src="./wp-content/themes/RDK_docs/assets/images/login/Close.png"></div>
+              <div class="logout-body">
+                <div class="logout-header">Logout</div>
+                <div>Are you sure you want to logout?</div>
+              </div>
+                <div class="logout-btn-wrap">
+                  <button class="logout-no" data-dismiss="modal">No</button>
+                  <button class="logout-yes"><a href="./wp-login.php?action=logout&amp;redirect_to=.%2F%2F&amp;_wpnonce=5996372ab8">Yes</a></button>
+                </div>
+             </div>
+            </div>
+        </div>
+    </div>
+</div>
+  <div class="login-container">
+    <div class="modal fade" id="loginModal" role="dialog">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content login-form-content">
+            
+<div class="login-popup">
+<div class="login ">
+    <div class="empty-field">
+        <div class="user-empty">Please enter User name</div>
+        <div class="password-empty">Please enter Password</div>
+    </div>
+
+<div id="login">
+    <div class="close-icon" data-dismiss="modal"><img src="./wp-content/themes/RDK_docs/assets/images/login/Close.png"></div>
+    <div class="login-container">
+        <div class="align-items-center" style="text-align:center;">
+        <div class="site-icon"><img src="./wp-content/themes/RDK_docs/assets/images/RDK_icon.png" class="logo"></div>
+            <br>
+            <p class="login-form-title">Log In</p>
+            <div class="new_user_registration"> Need an account?
+            <a href="javascript:void(0)" data-dismiss="modal" data-toggle="modal" data-target="#signupModal">Register</a>
+            </div>
+        </div>
+
+                            <div id="auth-external-service-login"></div>
+                            
+                        <form name="loginform" id="loginform" action="https://34.214.27.93/source/wp-login.php" method="post">
+<p class="login-username">
+				<label for="user_login">User name</label>
+				<input type="text" name="log" id="user_login" autocomplete="username" class="input" value="" size="20">
+			</p>
+<p class="login-password">
+				<label for="user_pass">Password</label>
+				<input type="password" name="pwd" id="user_pass" autocomplete="current-password" class="input" value="" size="20">
+			</p>
+<p class="login-submit">
+				<input type="submit" name="wp-submit" id="wp-login-submit" class="button button-primary" value="Submit">
+				<input type="hidden" name="redirect_to" value="https://34.214.27.93/source">
+			</p>
+</form>        <div class="new_user_registration forgot-pwd">
+            <a href="https://wiki.rdkcentral.com/forgotuserpassword.action">Forgot password?
+            </a>
+        </div>
+    </div>
+</div>
+    
+</div>
+</div>            </div>
+        </div>
+    </div>
+</div>
+<div class="signup-container">
+    
+<div class="signup-popup">
+    <form name="loginform" id="signupform" action="" method="post" novalidate>
+        <div class="modal fade" id="signupModal" role="dialog">
+            <div class="modal-dialog sign-up-dialog modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content signup-form-content">
+                    <div id="signup_container">
+                        <div class="close-icon" data-dismiss="modal"><img src="./wp-content/themes/RDK_docs/assets/images/login/Close.png"></div>
+                        <div class="error-msg-wrap" id="error_msg_div">
+                            <div id="error_msg">Invalid Format</div>
+                        </div>
+                        <div id="form_container" class="form-container">
+                            <div class="site-icon">
+                                <a href="https://34.214.27.93/"><img src="./wp-content/themes/RDK_docs/assets/images/RDK_icon.png" class="logo"></a>
+                            </div>
+
+                            <div class="register-title">
+                                <div class="login_form_title"> Register </div>
+                                <div id="sign_in_text"> Already have an account? <a href="javascript:void(0)" data-dismiss="modal" data-toggle="modal" data-target="#loginModal" class="login-link">Log In</a>
+</div>
+                            </div>
+                            <div class="register-warning-msg">
+                                <div>Please use your corporate email to avail your company access privileges.</div>
+                                <div>Using your personal email may limit your access to open source content only</div>
+
+                            </div>
+                            <div class="formAlignment register-form-elements row mx-0">
+                                <div class="col-lg-4 col-md-6 col-sm-6 formElem">
+                                    <div class="text_blur formInpWrap" id="full_name_div">
+                                        <input type="text" name="full_name" id="full_name" autocapitalize="off" class="input_fields">
+                                        <span class="success_icon" id="success_fname"></span>
+                                        <span class="error_icon" id="error_fname"></span>
+                                        <label for="full_name">
+                                            Full name
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-6 formElem">
+                                    <div class="text_blur formInpWrap">
+                                        <input type="text" name="username" id="user_name_login" value="" size="20" autocapitalize="off" class="input_fields">
+                                        <span class="success_icon" id="success_uname"></span>
+                                        <span class="error_icon" id="error_uname"></span>
+                                        <label for="user_name_login">
+                                            Username
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-6 formElem">
+                                    <div class="text_blur formInpWrap">
+                                        <input type="email" name="email" id="email" class="input_fields">
+                                        <span class="success_icon" id="success_email"></span>
+                                        <span class="error_icon" id="error_email"></span>
+                                        <label for="email">
+                                            E-mail
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-6 formElem">
+                                    <div class="user-pass-fields text_blur formInpWrap">
+                                        <input type="password" name="pwd" id="user_password" class="input_fields">
+                                        <span class="success_icon" id="success_pwd"></span>
+                                        <span class="error_icon" id="error_pwd"></span>
+                                        <label for="user_password" class="label_pass">Password</label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-6 formElem">
+                                    <div class="user-pass-confirm-fields text_blur formInpWrap">
+                                        <input type="password" name="confirm_pwd" id="confirm_user_password" value="" class="input_fields">
+                                        <span class="success_icon" id="success_cpwd"></span>
+                                        <span class="error_icon" id="error_cpwd"></span>
+                                        <label for="confirm_user_password" class="label_pass">Confirm password</label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-6 formElem">
+                                    <div class="text_blur formInpWrap" id="company_name_div">
+                                        <input type="text" name="companyName" id="company_name" class="input_fields" autocapitalize="off">
+                                        <span class="success_icon" id="success_compname"></span>
+                                        <span class="error_icon" id="error_compname"></span>
+                                        <label for="company_name">
+                                            Company name (optional)
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="terms-container">
+                                <span>Accept terms of service</span>
+                                <a href="javascript:void(0)" class="terms-link" id="agreement-button" data-dismiss="modal" data-toggle="modal" data-target="#claModal">Contributor license agreement</a>
+                            </div>
+                            <div class="col">
+                                <input type="checkbox" name="agreementSigned" id="read_content" style="margin-right:10px;">
+                                On clicking you are agreeing to receive E-mails regarding RDK updates and user notifications.
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="g-recaptcha" data-theme="dark" data-sitekey="6Leef-UUAAAAAMxich61DMwwWqM1J_SlpILK6fH8" data-callback="enableBtn"></div>
+                                </div>
+                                <div class="col"></div>
+                            </div>
+                            <div class="submit-container">
+                                <input type="submit" name="wp-submit" id="wp-submit" class="button submit-btn button-primary button-large" value="Submit">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="claModal" data-backdrop="static" role="dialog">
+            <div class="modal-dialog cla-popup modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header cla-header">
+                        <div class="modal-title" id="agreement-title">RDK Management, LLC Contributor License
+                            Agreement</div>
+                        <button type="button" class="close" data-dismiss="modal" data-toggle="modal" data-target="#signupModal"><img src="./wp-content/themes/RDK_docs/assets/images/login/Close.png"></button>
+                    </div>
+                    <div class="modal-body cla-body">
+                        <div id="agreement-content" class="cla-container">
+                            <div class="agreement-data">
+                                <p>Thank You for Your interest in contributing to an RDK Management, LLC ("RDKM")
+                                    open source project.
+                                    This Contributor License Agreement ("Agreement") is for Your benefit as well as
+                                    RDKM's, as it
+                                    establishes each party's rights and obligations with respect to You contributing
+                                    code to any open source
+                                    project owned or managed by RDKM. To protect both of us, Your acceptance of this
+                                    Agreement is required
+                                    before You contribute any code to an open source project owned or managed by
+                                    RDKM. By executing (in writing,
+                                    electronically, or otherwise) this Agreement, You accept and agree to the
+                                    following terms and conditions for
+                                    Your present and future Contributions submitted to RDKM. Except for the license
+                                    granted herein to RDKM and
+                                    recipients of software distributed by RDKM, You reserve all right, title, and
+                                    interest in and to Your
+                                    Contributions and may distribute those Contributions to others on different
+                                    terms.
+                                </p>
+<p>
+                                </p>
+<p><span class="agreement-points">Definitions</span>
+                                    "You" (or "Your") means the copyright owner or legal entity authorized
+                                    by the
+                                    copyright owner that is making this Agreement with RDKM. For legal
+                                    entities, the entity making a
+                                    Contribution and all other entities that control, are controlled by, or
+                                    are under common control
+                                    with that entity are considered to be a single contributor. For the
+                                    purposes of this definition,
+                                    "control" means: (i) the power, direct or indirect, to cause the
+                                    direction or management of such
+                                    entity, whether by contract or otherwise, or (ii) ownership of fifty
+                                    percent (50%) or more of the
+                                    outstanding shares, or (iii) beneficial ownership of such entity.
+                                </p>
+                                <p>"Contribution" means any original work of authorship, including any
+                                    modifications or additions
+                                    to an existing work, that is intentionally submitted by You to RDKM for
+                                    inclusion in, or
+                                    documentation of, any open source project owned or managed by RDKM (the
+                                    "Work"). For the
+                                    purposes of this definition, "submitted" means any form of electronic,
+                                    verbal, or written
+                                    communication sent to RDKM or its representatives, including but not
+                                    limited to communication on
+                                    electronic mailing lists, source code control systems, and issue
+                                    tracking systems that are managed
+                                    by, or on behalf of, RDKM for the purpose of discussing and improving
+                                    the Work, but excluding
+                                    communication that is conspicuously marked or otherwise designated in
+                                    writing by You as "Not a
+                                    Contribution."</p>
+                                <p><span class="agreement-points">Grant of Copyright License</span>
+                                    Subject to the terms and conditions of this Agreement, You hereby grant
+                                    to RDKM and to recipients of
+                                    software distributed by RDKM a perpetual, worldwide, non-exclusive,
+                                    no-charge, royalty-free,
+                                    irrevocable copyright license to reproduce, prepare derivative works of,
+                                    publicly display, publicly
+                                    perform, sublicense, and distribute Your Contributions and such
+                                    derivative works, as well as the
+                                    right to sublicense and have sublicensed all of the foregoing rights,
+                                    through multiple tiers of
+                                    sublicensees.</p>
+
+                                <p><span class="agreement-points">Grant of Patent License</span>
+                                    Subject to the terms and conditions of this Agreement, You hereby grant
+                                    to RDKM and to recipients of
+                                    software distributed by RDKM a sublicensable, perpetual, worldwide,
+                                    non-exclusive, fully paid-up,
+                                    royalty-free, irrevocable (except as stated in this section) patent
+                                    license to make, have made, use,
+                                    offer to sell, sell, import, and otherwise transfer the Work, where such
+                                    license applies only to
+                                    those patent claims licensable by You that are necessarily infringed by
+                                    Your Contribution(s) alone
+                                    or by combination of Your Contribution(s) with the Work to which such
+                                    Contribution(s) was submitted.
+                                    If any entity institutes patent litigation against You or any other
+                                    entity (including a cross-claim
+                                    or counterclaim in a lawsuit) alleging that your Contribution, or the
+                                    Work to which you have
+                                    contributed, constitutes direct or contributory patent infringement,
+                                    then any patent licenses
+                                    granted to that entity under this Agreement for that Contribution or
+                                    Work shall terminate as of the
+                                    date such litigation is filed.</p>
+
+                                <p><span class="agreement-points">License</span>
+                                    You represent that You are legally entitled to grant the above license.
+                                    If your employer has
+                                    rights to intellectual property contained within the Contribution, you
+                                    represent that you have
+                                    received permission to make Contributions on behalf of that employer,
+                                    that your employer has waived
+                                    such rights for your Contributions to RDKM, or that your employer has
+                                    executed a separate
+                                    Contributor License Agreement with RDKM.</p>
+
+                                <p><span class="agreement-points">Contributions</span>
+                                    You represent that each of Your Contributions is Your original creation
+                                    (see Section 7 for
+                                    submissions on behalf of others). You represent that Your Contribution
+                                    submissions include complete
+                                    details of any third-party license or other restrictions (including, but
+                                    not limited to, related
+                                    patents and trademarks) of which you are personally aware and which are
+                                    associated with any part of
+                                    Your Contributions.</p>
+                                <p><span class="agreement-points">Support Contributions</span>
+                                    You are not expected to provide support for Your Contributions, except to the extent You desire
+                                    to provide support. You may provide support for free, for a fee, or not at
+                                    all. Unless required by
+                                    applicable law or agreed to in writing, You provide Your Contributions
+                                    on an "AS IS" BASIS, WITHOUT
+                                    WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied,
+                                    including, without limitation, any
+                                    warranties or conditions of TITLE, NON- INFRINGEMENT, MERCHANTABILITY,
+                                    or FITNESS FOR A PARTICULAR
+                                    PURPOSE.
+                                </p>
+<p><span class="agreement-points">Original Creation</span> Should You wish to submit work
+                                    that is not Your original creation, You may submit it to RDKM
+                                    separately from any Contribution, identifying the complete details
+                                    of its source and of any
+                                    license or other restriction (including, but not limited to, related
+                                    patents, trademarks, and
+                                    license agreements) of which you are personally aware, and
+                                    conspicuously marking the work as
+                                    "Submitted on behalf of a third-party: [named here]".</p>
+                                <p><span class="agreement-points">Inaccurate</span>
+                                    You agree to notify RDKM of any facts or circumstances of which you
+                                    become aware that would
+                                    make these representations inaccurate in any respect.</p>
+                            </div>
+                            <div class="cla-form-wrapper">
+                                <div id="cla-form">
+                                    <div class="radio-btn-wrapper">
+                                        <div class="radio-btn-c yes-radio-btn">
+                                            <label for="accept">Accept
+                                                <input type="radio" id="accept" name="clasigned" value="Y" checked>
+                                                <div class="cla-check"></div>
+                                            </label>
+                                        </div>
+                                        <div class="radio-btn-c no-radio-btn">
+                                            <label for="decline"> Decline
+                                                <input type="radio" id="decline" name="clasigned" value="N">
+                                                <div class="cla-check"></div>
+                                            </label>
+
+                                        </div>
+                                    </div>
+
+                                    <div id="agreement-fieldset" class="signup-section">
+
+                                        <div class="formInpWrap col cla-elements">
+                                            <input type="text" placeholder="" id="signed" name="signed" class=".input_fields cla-input" pattern="^[a-zA-Z ]{1,64}$" minlength="1" maxlength="64">
+                                            <label for="signed"> Signed* </label>
+                                        </div>
+                                        <div class="formInpWrap col cla-elements">
+                                            <input type="text" placeholder="" id="cla-by" name="cla-by" class=".input_fields cla-input" minlength="1" maxlength="64">
+                                            <label for="cla-by"> By </label>
+                                        </div>
+                                        <div class="formInpWrap col cla-elements">
+                                            <input type="text" placeholder="" id="cla-for" name="cla-for" class=".input_fields cla-input" minlength="1" maxlength="64">
+                                            <label for="cla-for"> For<span class="for-behalf">(if on behalf of a legal entity)</span>
+                                            </label>
+                                        </div>
+                                        <div class="col cla-elements">
+                                            <label for="cla-date"> Date: </label><br>
+                                            <input type="date" id="cla-date" value="2023-02-22" disabled class="cla-input">
+                                        </div>
+                                        <div class="col cla-elements proceed-btn-c">
+                                            <button type="button" id="proceed-button-id" data-dismiss="modal" data-toggle="modal" data-target="#signupModal" name="proceed-button-id" class="button button-primary button-large">Proceed</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+<script src="./wp-content/themes/RDK_docs/assets/js/registration-script.js"></script>
+<script src="./wp-content/themes/RDK_docs/assets/js/registration-validator.js"></script>
+</div>
+
+
+  
+</header><div class="contentWrapper text-center homeWrapper">
+	<div class="home-page-container container homeInnerWrapper">
+      <section class="section pt-5 pb-5 card-layout-section bg-gradient-blue">
+         <div class="container">
+            <div class="label text-red">
+               <p class="_text">Source</p>
+            </div>
+            <div class="section-lead pt-4">
+            </div>
+            <div class="cards">
+               <div class="card interaction col plat-Wrapper plat-item plat-item-151 col col-12 col-sm-12 col-md-12 col-lg-5" style="padding: 10px !important;">
+                  <div class="row">
+					<div class="col-sm-4">
+					  <div class="_icon bg-circle" style="background: #ffffff;align-items: normal;"> <img style="width:128px; height:128px;" src="wp-content/uploads/sites/7/2022/10/source_002.png">
+</div>
+					</div>
+					<div class="col-sm-8">
+					  <div class="_title h6" style="margin-top: 12px;">Source Code</div>
+                  <div class="description">
+                     <div class="rich-text">
+                        <p> Access RDK source code via Github for some RDK components and through RDK Central Gerrit for the majority of RDK components.</p>
+                     </div>
+                     <div class="row platOvrl-lnk-wrpr" style="margin-left: 0px;">
+                        <div class="platOvrl-lnk">
+                           <p><a style="padding: 8px;background-color:#007bff;color: #ffffff;display: inline-block;border-radius: 5px;    font-size: 14px;" alt="RDK Gerrit" title="RDK Gerrit" href="https://code.rdkcentral.com/r/q/status:open+-is:wip" rel="nofollow" target="_blank">RDK Gerrit</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="padding: 8px;    color: #ffffff;background-color: #007bff;display: inline-block;border-radius: 5px;    font-size: 14px;" alt="RDK Github" title="RDK Github" href="https://github.com/rdkcentral" rel="nofollow" target="_blank">RDK Github</a></p>
+                        </div>
+                     </div>
+                  </div>
+					</div>
+				  </div>
+               </div>
+               <div class="card interaction col plat-Wrapper plat-item plat-item-151 col col-12 col-sm-12 col-md-12 col-lg-5" style="padding: 10px !important;">
+                  <div class="row">
+					<div class="col-sm-4">
+					  <div class="_icon bg-circle" style="background: #ffffff;align-items: normal;"> <img style="width:128px; height:128px;" src="wp-content/uploads/sites/7/2022/10/image2022-7-29_13-9-46.png">
+</div>
+                  
+					</div>
+					<div class="col-sm-8">
+					  <div class="_title h6" style="margin-top: 12px;">Releases</div>
+                  <div class="description">
+                     <div class="rich-text">
+                        <p> To know about RDK releases (iteration and quartely release) and upcoming release details, please follow the below documentation.</p>
+</div>
+                     <div class="row platOvrl-lnk-wrpr" style="margin-left: 0px;">
+                        <div class="platOvrl-lnk">
+							<p><a style="padding:8px;background-color:#007bff;color: #ffffff;display: inline-block;border-radius: 5px;    font-size: 14px;" alt="Upcoming Releases" title="Upcoming Releases" href="https://wiki.rdkcentral.com/display/CMF/Release+Schedule" rel="nofollow" target="_blank">Upcoming Releases</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="padding: 8px;    color: #ffffff;background-color: #007bff;display: inline-block;border-radius: 5px;    font-size: 14px;" alt="Release History" title="Release History" href="https://wiki.rdkcentral.com/display/CMF/RDK+Releases" rel="nofollow" target="_blank">Release History</a></p>
+                        </div>
+                     </div>
+                  </div>
+					</div>
+				  </div>
+               </div>
+            </div>
+         </div>
+      </section>   
+    </div>
+</div>
+
+<footer class="page-footer">
+<div class="container-fluid p-0">
+    <div class="row" id="footerLink">
+    <div class="widget copy-right-menu"><div class="widget-content ">
+<div class="widget-title copy-right subheading">Copyright © 2020. All right reserved</div>
+<div class="menu-footer-menu6-container"><ul id="menu-footer-menu6" class="menu">
+<li id="menu-item-259" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-259 nav-item"><a target="_blank" rel="noopener" href="http://wiki.rdkcentral.com/display/RDK/Privacy+Policy">Privacy Statement</a></li>
+<li id="menu-item-260" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-260 nav-item"><a target="_blank" rel="noopener" href="https://wiki.rdkcentral.com/display/RDK/Wiki+Terms+of+Use">Terms of Use</a></li>
+<li id="menu-item-261" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-261 nav-item"><a target="_blank" rel="noopener" href="https://wiki.rdkcentral.com/display/RDK/Security+Guidelines">All policies and guidelines</a></li>
+</ul></div>
+</div></div>    </div>
+  </div>
+</footer>
+</article>
+<script type="text/javascript" src="./wp-includes/js/jquery/ui/core.min.js?ver=1.13.2" id="jquery-ui-core-js"></script>
+<script type="text/javascript" src="./wp-includes/js/jquery/ui/menu.min.js?ver=1.13.2" id="jquery-ui-menu-js"></script>
+<script type="text/javascript" src="./wp-includes/js/jquery/ui/selectmenu.min.js?ver=1.13.2" id="jquery-ui-selectmenu-js"></script>
+<script type="text/javascript" src="./wp-content/themes/RDK_docs/assets/js/jquery-1.12.js?ver=6.1.1" id="jquery-1.12-js"></script>
+<script type="text/javascript" src="./wp-content/themes/RDK_docs/assets/js/jquery.magnific-popup.min.js?ver=6.1.1" id="jquery-magnificpopup-js"></script>
+<script type="text/javascript" src="./wp-content/themes/RDK_docs/assets/js/scrolldetection.js" id="scrolldetection-js"></script>
+<script type="text/javascript" src="./wp-content/themes/RDK_docs/assets/js/sidemenu.js" id="sidemenu-js"></script>
+<script type="text/javascript" src="./wp-content/themes/RDK_docs/assets/js/popper.min.js?ver=6.1.1" id="popper-js"></script>
+<script type="text/javascript" src="./wp-content/themes/RDK_docs/assets/js/bootstrap.min.js?ver=6.1.1" id="bootstrapjs-js"></script>
+<script type="text/javascript" src="./wp-content/themes/RDK_docs/assets/js/table-to-chart.js" id="tabletochart-js"></script>
+<script type="text/javascript" src="./wp-content/themes/RDK_docs/assets/js/releases-filter.js?ver=6.1.1" id="releasesfilterscript-js"></script>
+<script type="text/javascript" src="./wp-content/themes/RDK_docs/assets/js/search.js" id="custom-script-js"></script>
+<script type="text/javascript" src="./wp-content/themes/RDK_docs/assets/js/jquery-ui.js" id="jquery-ui-js"></script>
+<script type="text/javascript" src="./wp-content/themes/RDK_docs/assets/js/jquery.multiselect.js" id="multi-select-js"></script>
+<script type="text/javascript" src="./wp-content/themes/RDK_docs/assets/js/format-pages-contents.js" id="formatpages-js"></script>
+<script type="text/javascript" src="./wp-content/themes/RDK_docs/assets/js/bbp-post-format.js" id="formatforumpages-js"></script>
+<script type="text/javascript" src="./wp-content/themes/RDK_docs/assets/js/code-block.js" id="codeblock-js"></script>
+<script type="text/javascript" src="./wp-content/themes/RDK_docs/assets/js/owl.carousel.min.js" id="owlcarouseljs-js"></script>
+<script type="text/javascript" src="./wp-content/themes/RDK_docs/assets/js/homepage.js" id="homepagejs-js"></script>
+<script type="text/javascript" id="wd-asl-ajaxsearchlite-js-before">window.ASL = typeof window.ASL !== 'undefined' ? window.ASL : {}; window.ASL.wp_rocket_exception = "DOMContentLoaded"; window.ASL.ajaxurl = ".\/\/wp-admin\/admin-ajax.php"; window.ASL.backend_ajaxurl = ".\/\/wp-admin\/admin-ajax.php"; window.ASL.js_scope = "jQuery"; window.ASL.asl_url = ".\/\/wp-content\/plugins\/ajax-search-lite\/"; window.ASL.detect_ajax = 1; window.ASL.media_query = 4756; window.ASL.version = 4756; window.ASL.pageHTML = ""; window.ASL.additional_scripts = [{"handle":"wd-asl-ajaxsearchlite","src":".\/\/wp-content\/plugins\/ajax-search-lite\/js\/min\/plugin\/optimized\/asl-prereq.js","prereq":[]},{"handle":"wd-asl-ajaxsearchlite-core","src":".\/\/wp-content\/plugins\/ajax-search-lite\/js\/min\/plugin\/optimized\/asl-core.js","prereq":[]},{"handle":"wd-asl-ajaxsearchlite-vertical","src":".\/\/wp-content\/plugins\/ajax-search-lite\/js\/min\/plugin\/optimized\/asl-results-vertical.js","prereq":["wd-asl-ajaxsearchlite"]},{"handle":"wd-asl-ajaxsearchlite-autocomplete","src":".\/\/wp-content\/plugins\/ajax-search-lite\/js\/min\/plugin\/optimized\/asl-autocomplete.js","prereq":["wd-asl-ajaxsearchlite"]},{"handle":"wd-asl-ajaxsearchlite-load","src":".\/\/wp-content\/plugins\/ajax-search-lite\/js\/min\/plugin\/optimized\/asl-load.js","prereq":["wd-asl-ajaxsearchlite-autocomplete"]}]; window.ASL.script_async_load = false; window.ASL.init_only_in_viewport = true; window.ASL.font_url = ".\/\/wp-content\/plugins\/ajax-search-lite\/css\/fonts\/icons2.woff2"; window.ASL.css_async = false; window.ASL.highlight = {"enabled":false,"data":[]}; window.ASL.analytics = {"method":0,"tracking_id":"","string":"?ajax_search={asl_term}","event":{"focus":{"active":1,"action":"focus","category":"ASL","label":"Input focus","value":"1"},"search_start":{"active":0,"action":"search_start","category":"ASL","label":"Phrase: {phrase}","value":"1"},"search_end":{"active":1,"action":"search_end","category":"ASL","label":"{phrase} | {results_count}","value":"1"},"magnifier":{"active":1,"action":"magnifier","category":"ASL","label":"Magnifier clicked","value":"1"},"return":{"active":1,"action":"return","category":"ASL","label":"Return button pressed","value":"1"},"facet_change":{"active":0,"action":"facet_change","category":"ASL","label":"{option_label} | {option_value}","value":"1"},"result_click":{"active":1,"action":"result_click","category":"ASL","label":"{result_title} | {result_url}","value":"1"}}};</script>
+<script type="text/javascript" src="./wp-content/plugins/ajax-search-lite/js/min/plugin/optimized/asl-prereq.js?ver=4756" id="wd-asl-ajaxsearchlite-js"></script>
+<script type="text/javascript" src="./wp-content/plugins/ajax-search-lite/js/min/plugin/optimized/asl-core.js?ver=4756" id="wd-asl-ajaxsearchlite-core-js"></script>
+<script type="text/javascript" src="./wp-content/plugins/ajax-search-lite/js/min/plugin/optimized/asl-results-vertical.js?ver=4756" id="wd-asl-ajaxsearchlite-vertical-js"></script>
+<script type="text/javascript" src="./wp-content/plugins/ajax-search-lite/js/min/plugin/optimized/asl-autocomplete.js?ver=4756" id="wd-asl-ajaxsearchlite-autocomplete-js"></script>
+<script type="text/javascript" src="./wp-content/plugins/ajax-search-lite/js/min/plugin/optimized/asl-load.js?ver=4756" id="wd-asl-ajaxsearchlite-load-js"></script>
+<script type="text/javascript" src="./wp-content/plugins/ajax-search-lite/js/min/plugin/optimized/asl-wrapper.js?ver=4756" id="wd-asl-ajaxsearchlite-wrapper-js"></script>
+<script type="text/javascript" src="./wp-content/plugins/enlighter/cache/X7_enlighterjs.min.js?ver=Z%2FbTmhowULWSvoQ" id="enlighterjs-js"></script>
+</body>
+
+</html>

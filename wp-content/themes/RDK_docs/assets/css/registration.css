@@ -1,0 +1,740 @@
+#signup_container {
+    border-radius: 10px;
+    background-color: #000000;
+    color: #81959A;
+    margin: auto;
+    margin-top: 7% !important;
+    margin-bottom: 7% !important;
+    opacity: 1;
+}
+
+#logo_container {
+    display: flex;
+    float: left;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#logo_img {
+    align-items: center;
+    justify-content: center;
+}
+
+.login_form_title {
+    font-size: 22px;
+}
+
+.terms-container {
+    padding: 35px 0px 15px 16px;
+    font-size: 14px;
+}
+
+
+/*label styles*/
+
+.ch {
+    top: -16px;
+}
+
+.text_blur {
+    color: #646464 !important;
+}
+
+.text_focussed {
+    color: white;
+}
+
+.input_fields {
+    background: transparent !important;
+    border: 1px solid #81959A;
+    border-radius: 5px;
+}
+
+
+/*active input label*/
+
+.login_input_error {
+    border-color: #d12e26 !important;
+    color: white !important;
+}
+
+.login_input_focussed {
+    border-color: #ffffff !important;
+    color: white !important;
+}
+
+.text_blur_radio {
+    color: #efefef !important;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-left: 16px;
+}
+
+
+/* Button Styles */
+
+.submit-btn,
+#proceed-button-id {
+    border: 1px solid #6D6D6D;
+    font-size: 15px;
+    width: 100px;
+    height: 35px;
+    padding: 0px;
+    display: inline-block;
+    text-decoration: none;
+    -webkit-appearance: none;
+    white-space: nowrap;
+    box-sizing: border-box;
+    line-height: 0;
+    vertical-align: baseline;
+    border-radius: 30px;
+}
+
+.submit-btn {
+    background-color: #000000;
+    color: #81959A;
+}
+
+#proceed-button-id {
+    background-color: #fff;
+}
+
+.submit-container {
+    text-align: right;
+    padding-right: 20px;
+}
+
+.proceed-btn-c {
+    text-align: right;
+}
+
+.enabled_button {
+    color: #F58233 !important;
+    border-color: #F58233 !important;
+}
+
+.site-icon {
+    text-align: center;
+    height: 25px;
+}
+
+.site-icon img {
+    height: 100%;
+}
+
+#agreement-button {
+    font-size: 14px;
+}
+
+.modal-backdrop {
+    background-color: #2B1E3E;
+}
+
+#claModal {
+    left: -7.5px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.modal-header.cla-header {
+    background-color: #000;
+    color: #BEC8CB;
+}
+
+#agreement-title {
+    font-size: 18px;
+}
+
+#agreement-content {
+    font-size: 14px;
+}
+
+.cla-container {
+    color: #3C4F54;
+}
+
+.cla-popup {
+    min-width: 85%;
+}
+
+.cla-body {
+    padding: 0px !important;
+}
+
+.agreement-data {
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-left: 35px;
+}
+
+.cla-form-wrapper {
+    background-color: #fbfbfb;
+    box-shadow: -3px 0px 3px #e6e6e6;
+}
+
+.radio-btn-wrapper {
+    display: flex;
+}
+
+.radio-btn-wrapper .radio-btn-c {
+    position: relative;
+    width: 50%;
+}
+
+.radio-btn-wrapper input[type=radio] {
+    position: absolute;
+    visibility: hidden;
+}
+
+.radio-btn-c .cla-check {
+    display: block;
+    height: 20px;
+    width: 20px;
+    z-index: 5;
+    transition: border .25s linear;
+    -webkit-transition: border .25s linear;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.radio-btn-wrapper .radio-btn-c .cla-check::before {
+    display: block;
+    position: absolute;
+    content: '';
+    border-radius: 100%;
+    height: 20px;
+    width: 20px;
+    top: 3px;
+    left: 5px;
+    margin: auto;
+    transition: background 0.25s linear;
+    -webkit-transition: background 0.25s linear;
+    background: url(./../images/login/radio_inactive.png) no-repeat;
+}
+
+.radio-btn-wrapper .radio-btn-c input[type=radio]:checked~.cla-check::before {
+    background: url(./../images/login/radio_active.png) no-repeat;
+}
+
+.radio-btn-wrapper .radio-btn-c label {
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+#cla-form {
+    position: sticky;
+    padding: 15px 35px 15px;
+    width: 100%;
+    right: 0;
+    top: 0;
+}
+
+.modal-content {
+    border-radius: 24px;
+}
+
+#proceed-button-id {
+    color: #6d6d6d;
+}
+
+.agreement-points {
+    border-radius: 12px;
+    display: block;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+
+/* cla fields placeholder style */
+
+
+/* #signed */
+
+#signed::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    color: #C3C3C3;
+    padding-left: 15px;
+}
+
+#signed:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #C3C3C3;
+    padding-left: 15px;
+    opacity: 1;
+}
+
+#signed::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #C3C3C3;
+    padding-left: 15px;
+    opacity: 1;
+}
+
+#signed:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #C3C3C3;
+    padding-left: 15px;
+}
+
+#signed::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #C3C3C3;
+    padding-left: 15px;
+}
+
+#signed::placeholder {
+    /* Most modern browsers support this now. */
+    color: #C3C3C3;
+    padding-left: 15px;
+}
+
+
+/*cla-by*/
+
+#cla-by::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    color: #C3C3C3;
+    padding-left: 15px;
+}
+
+#cla-by:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #C3C3C3;
+    padding-left: 15px;
+    opacity: 1;
+}
+
+#cla-by::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #C3C3C3;
+    padding-left: 15px;
+    opacity: 1;
+}
+
+#cla-by:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #C3C3C3;
+    padding-left: 15px;
+}
+
+#cla-by::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #C3C3C3;
+    padding-left: 15px;
+}
+
+#cla-by::placeholder {
+    /* Most modern browsers support this now. */
+    color: #C3C3C3;
+    padding-left: 15px;
+}
+
+
+/*cla-for*/
+
+#cla-for::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    color: #C3C3C3;
+    padding-left: 15px;
+}
+
+#cla-for:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #C3C3C3;
+    padding-left: 15px;
+    opacity: 1;
+}
+
+#cla-for::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #C3C3C3;
+    padding-left: 15px;
+    opacity: 1;
+}
+
+#cla-for:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #C3C3C3;
+    padding-left: 15px;
+}
+
+#cla-for::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #C3C3C3;
+    padding-left: 15px;
+}
+
+#cla-for::placeholder {
+    /* Most modern browsers support this now. */
+    color: #C3C3C3;
+    padding-left: 15px;
+}
+
+#skip-to-link {
+    display: none;
+    float: left;
+}
+
+#cla_footer_modal {
+    display: none;
+}
+
+
+/* captcha style */
+
+.g-recaptcha {
+    margin-top: 6px;
+    margin-bottom: 5px;
+    margin-left: 16px;
+}
+
+
+/*label styles */
+
+.formInpWrap label {
+    display: block;
+    position: absolute;
+    left: 6px;
+    top: 2px;
+    padding: 2px;
+    border-color: transparent;
+    color: #81959A;
+    cursor: pointer;
+    font-size: 14px;
+    transition: ease-in-out all 0.2s;
+    -webkit-transition: ease-in-out all 0.2s;
+    -moz-transition: ease-in-out all 0.2s;
+    -o-transition: ease-in-out all 0.2s;
+}
+
+.register-form-elements .formInpWrap label {
+    background-color: #000000;
+}
+
+.cla-form-wrapper .formInpWrap label {
+    background-color: #fbfbfb;
+}
+
+#agreement-fieldset {
+    padding-top: 30px;
+}
+
+.register-form-elements .formInpWrap.focussed label {
+    top: -13px;
+    color: white;
+    padding: 0 2px !important;
+}
+
+.formInpWrap.focussed label {
+    top: -13px;
+    font-style: normal;
+}
+
+.register-form-elements .formInpWrap.focussed input {
+    border-color: white;
+}
+
+.formInpWrap.focussed input {
+    outline: none;
+}
+
+.form-container {
+    padding: 65px 80px;
+}
+
+.formInpWrap {
+    position: relative;
+    display: grid;
+}
+
+.formInpWrap label {
+    font-style: italic;
+}
+
+.cla-form-wrapper .formInpWrap input {
+    color: #3C4F54;
+}
+
+.formInpWrap input {
+    margin-bottom: 13px;
+    cursor: pointer;
+    height: 35px;
+    color: #FFFFFF;
+    padding-left: 5px;
+    padding-right: 30px;
+    width: 100%;
+}
+
+.register-form-elements .formInpWrap input {
+    max-width: 200px;
+}
+
+.formInpWrap input:focus {
+    outline: none;
+}
+
+#sign_in_text {
+    font-size: 14px;
+    padding: 10px 0px 20px;
+}
+
+.terms-link,
+.terms-link:hover {
+    color: #BEC8CB;
+    text-decoration: underline;
+}
+
+.terms-link.enabled,
+.terms-link.enabled:hover,
+.login-link:hover,
+.login-link {
+    color: #00B3DC;
+    text-decoration: underline;
+}
+
+.register-title {
+    padding-bottom: 16px;
+    padding-left: 16px;
+}
+
+.cla-elements {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding-left: 0px !important;
+}
+
+.register-warning-msg {
+    font-size: 12px;
+    padding-left: 16px;
+    padding-bottom: 30px;
+}
+
+.cla-input {
+    width: 100%;
+    height: 38px;
+    border: 1px solid #CED4DA;
+    padding-left: 4px;
+    border-radius: 5px;
+    background-color: #fbfbfb;
+}
+
+.footer_close {
+    color: #707070;
+}
+
+.footer_skip {
+    color: #9D9D9D;
+}
+
+.modal-backdrop {
+    background-color: #fff !important;
+    opacity: 0.5;
+}
+
+#cla-date {
+    padding-left: 15px;
+}
+
+@media only screen and (max-width: 710px) {
+    #signup_container {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 710px) and (max-width: 991px) {
+    #signup_container {
+        width: 75%;
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1200px) {
+    .for-behalf {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #signup_container {
+        width: 800px;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .agreement-data {
+        width: 70%;
+    }
+    .cla-form-wrapper {
+        width: 30%;
+    }
+    .cla-container {
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .agreement-data {
+        width: 100%;
+    }
+    .cla-form-wrapper {
+        width: 100%;
+    }
+}
+
+
+/* icons for validation */
+
+.fa {
+    position: absolute;
+    top: 13px;
+    left: 83%;
+    /* need to fix for iphone 5 */
+}
+
+.success_icon,
+.error_icon {
+    font-size: 18px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    height: 15px;
+    width: 15px;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-size: 12px 12px;
+}
+
+.signup-container .signup-popup .success_icon,
+.signup-container .signup-popup .error_icon {
+    right: 10px;
+}
+
+.success_icon {
+    background: url(./../images/login/Yes.png) no-repeat;
+}
+
+.error_icon {
+    background: url(./../images/login/Error.png) no-repeat;
+}
+
+#success_email,
+#error_email,
+#success_pwd,
+#error_pwd,
+#success_fname,
+#error_fname,
+#success_uname,
+#error_uname,
+#success_cpwd,
+#error_cpwd,
+#success_compname,
+#error_compname {
+    display: none;
+}
+
+#error_msg_div {
+    display: none;
+    display: none;
+    right: 0;
+    top: 15px;
+    border-radius: 12px 0px 12px 12px;
+    background-color: #FF6363;
+    position: absolute;
+    padding: 15px 15px 15px 15px;
+    margin: auto;
+    color: #000;
+    text-align: center;
+    font-size: 15px;
+    max-width: 258px;
+}
+
+.signup-container .signup-popup #error_msg_div {
+    position: fixed;
+    right: 10px;
+}
+
+
+/* change autocomplete style in chrome */
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+    -webkit-text-fill-color: #FFFFFF !important;
+    -webkit-box-shadow: 0 0 0 30px #1C1C1C inset !important;
+}
+
+.signup-form-content {
+    border-radius: 10px !important;
+    max-width: 90%;
+    border: 0 !important;
+    margin: auto;
+    background: transparent !important;
+}
+
+.signup-container .modal-dialog.sign-up-dialog {
+    min-width: 100% !important;
+    margin-top: 0 !important;
+    min-height: 100vh !important
+}
+
+.signup-container #signup_container {
+    margin-top: 40px !important;
+    position: relative;
+}
+
+.signup-container .signup-form-content .close-icon {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+@media screen and (min-width: 1600px) {
+    .login_form_title {
+        font-size: 24px;
+    }
+    #agreement-title {
+        font-size: 20px;
+    }
+    #agreement-content {
+        font-size: 16px;
+    }
+    .success_icon,
+    .error_icon {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 760px) {
+    #signupModal.modal.show {
+        overflow-y: hidden !important;
+    }
+}
+
+#signupModal.modal.show {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+@media only screen and (max-width:480px) {
+    .g-recaptcha div,
+    iframe {
+        width: 60vw !important;
+    }
+}
+
+@media only screen and (max-width:300px) {
+    .g-recaptcha div,
+    iframe {
+        width: 80vw !important;
+        margin-left: -8vw
+    }
+}

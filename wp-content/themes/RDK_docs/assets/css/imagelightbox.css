@@ -1,0 +1,103 @@
+.wp-block-image,.confluence-embedded-file-wrapper,.wp-gliffy-image {
+    position: relative;
+  }
+.wp-block-image:hover .lightboxcaller-image,
+.confluence-embedded-file-wrapper:hover .lightboxcaller-image, .wp-gliffy-image:hover .lightboxcaller-image {
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    right: 1px;
+    background: url('./../images/Pages/SVG/enlarge2.svg') no-repeat rgba(208, 221, 225, 0.75);
+    background-size: 24px 24px;
+    background-position: center;
+    border-radius: 4px 0;
+    height: 43px;
+    width: 43px;
+    z-index: 99;
+}
+.lgtBox-overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  top: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.lgtBox-content {
+  position: fixed;
+  z-index: 1000000;
+  margin: 0 auto;
+  overflow: scroll;
+}
+
+.lgtBox-content.image-wrap {
+  top: 2vh;
+  left: 3vw;
+  width: 94vw;
+  height: auto;
+  text-align: center;
+}
+
+.lgtBox-content.table-wrap {
+  position: fixed;
+  max-width: calc(100% - 5%);
+  max-height: calc(100% - 10%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: auto;
+}
+
+.lgtBox-content.table-wrap table tr.table-header > td,
+.lgtBox-content.table-wrap table tr.table-header > th,
+.table-wrap table thead tr:first-child > td,
+.table-wrap table thead tr:first-child > th {
+  position: sticky;
+  top: 0;
+  background: #ffffff;
+  border-radius: 4px 4px 0px 0px;
+  border: 1px solid #d0dde1;
+  box-shadow: 0 8px 6px -6px #d0dde1;
+  border-left: none;
+  border-right: none;
+  box-sizing: border-box;
+}
+
+.lgtBox-content.table-wrap table {
+  min-width: 80vw;
+  background: #ffffff;
+}
+
+span.lightbx-close {
+  position: fixed;
+  top: 40px;
+  right: 40px;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  background: rgba(0, 0, 0, 0.75);
+  z-index: 9999999;
+  padding: 5px 10px;
+}
+
+.lgtBox-content.image-wrap {
+  overflow: hidden;
+}
+
+.lgtBox-content.image-wrap img {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.lgtBox-content.image-wrap.show {
+  display: flex !important;
+  justify-content: center;
+}
+@media screen and (min-width: 1600px){
+	span.lightbx-close {
+	font-size: 20px;
+	}
+}

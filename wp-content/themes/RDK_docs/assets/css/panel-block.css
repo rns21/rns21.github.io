@@ -1,0 +1,15 @@
+div.panel[data-macro-name="panel"] {
+  border: 1px solid transparent;
+  padding-top: 1rem;
+  background: #fbfbfb 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 2px #00000029;
+  border-radius: 7px;
+}
+div.panel[data-macro-name="panel"] li {
+  color: #3c4f54;
+  font-weight: 500;
+}
+div.panel[data-macro-name="panel"] li a {
+  color: #0084dc;
+  font-weight: 400;
+}

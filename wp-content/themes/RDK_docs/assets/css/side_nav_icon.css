@@ -1,0 +1,146 @@
+/*left icon placement style for video-document */
+.icon-Getting-started:before {
+  content: "\e91d";
+  
+}
+.icon-Developer-Handbook:before {
+  content: "\e913";
+}
+.icon-Sub-Systems:before {
+  content: "\e923";
+}
+
+.icon-Features:before {
+  content: "\e91a";
+}
+
+.icon-Components:before {
+  content: "\e910";
+}
+
+.icon-Porting-Guide:before {
+  content: "\e920";
+}
+
+.icon-Tools-Resources:before {
+  content: "\e926";
+}
+
+.icon-Use-Cases:before {
+  content: "\e929";
+}
+
+.icon-APIs:before {
+  content: "\e90c";
+}
+
+.icon-Videos:before {
+  content: "\e92c";
+}
+
+/* common styles for left-side-nav-icon **/
+.left-nav-icon-position{
+  color: #3c4f54;
+  position:absolute;
+  top:0px;
+  font-size:16px;
+  left: 19px;
+}
+
+.menu-list li.page_item_has_children.current_page_ancestor > a span.left-nav-icon-position:before,
+.menu-list li.page_item_has_children.current_page_ancestor > a:hover span.left-nav-icon-position:before
+ {
+  color:#f58233;
+  font-weight: 600;
+}
+
+.menu-list li.page_item_has_children > a:hover span.left-nav-icon-position:before,
+.menu-list li.current_page_item > a span.left-nav-icon-position:before,
+.nav-side-menu li.current_page_item > span
+ {
+  color: #3C4F54;
+  font-weight: 600;
+}
+.menu-list li.page_item_has_children.current_page_item > a span.left-nav-icon-position:before{
+  color:#f58233;
+  font-weight: 600;
+}
+/* alternate way for user to add image in left side nav**/
+.side_nav_icon_0{
+  display:inline;
+}
+.side_nav_icon_1{
+  display:none;
+}
+.side_nav_icon_2{
+  display:none;
+}
+.side_nav_icon_0,.side_nav_icon_1,.side_nav_icon_2{
+  margin-left:0px;
+  position: absolute;
+  top: 0px;
+  left:10px;
+  width: auto;
+}
+/* active image **/
+.menu-list li.page_item_has_children.current_page_ancestor > a img.side_nav_icon_2,
+.menu-list li.page_item_has_children.current_page_item > a img.side_nav_icon_2{
+  display:inline;
+}
+.menu-list li.page_item_has_children.current_page_ancestor > a img.side_nav_icon_0,
+.menu-list li.page_item_has_children.current_page_item > a img.side_nav_icon_0{
+  display:none;
+}
+.menu-list li.page_item_has_children.current_page_ancestor > a img.side_nav_icon_1,
+.menu-list li.page_item_has_children.current_page_item > a img.side_nav_icon_1{
+  display:none;
+}
+/* child active and hover **/
+.menu-list li.page_item_has_children.current_page_ancestor > a:hover img.side_nav_icon_2{
+  display:inline;
+}
+.menu-list li.page_item_has_children.current_page_ancestor > a:hover img.side_nav_icon_0{
+  display:none;
+}
+.menu-list li.page_item_has_children.current_page_ancestor > a:hover img.side_nav_icon_1{
+  display:none;
+}
+/* hovering **/
+.menu-list li.page_item_has_children > a:hover img.side_nav_icon_2,
+.menu-list li > a:hover img.side_nav_icon_2{
+  display:none;
+}
+.menu-list li.page_item_has_children > a:hover img.side_nav_icon_0,
+.menu-list li > a:hover img.side_nav_icon_0{
+  display:none;
+}
+.menu-list li.page_item_has_children > a:hover img.side_nav_icon_1,
+.menu-list li > a:hover img.side_nav_icon_1{
+  display:inline;
+}
+/* parent active and hovering*/
+.menu-list li.page_item_has_children.current_page_item > a:hover img.side_nav_icon_2{
+  display:inline;
+}
+.menu-list li.page_item_has_children.current_page_item > a:hover img.side_nav_icon_0{
+  display:none;
+}
+.menu-list li.page_item_has_children.current_page_item > a:hover img.side_nav_icon_1{
+  display:none;
+}
+/* parent active **/
+  .menu-list li.current_page_item > a img.side_nav_icon_2{
+    display:inline;
+  }
+  .menu-list li.current_page_item > a img.side_nav_icon_1{
+    display:none;
+  }
+  .menu-list li.current_page_item > a img.side_nav_icon_0{
+    display:none;
+  }
+
+  @media screen and (min-width: 1600px){
+    .left-nav-icon-position{
+      font-size:18px;
+    }
+  }

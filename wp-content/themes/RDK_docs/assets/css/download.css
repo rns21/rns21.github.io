@@ -1,0 +1,36 @@
+
+.wp-block-file {
+width: 50%;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 0px 4px #00000029;
+border-radius: 4px;
+opacity: 1;
+padding: 0.7em.6em;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.wp-block-file .wp-block-file__button{
+background: transparent;
+border-radius: 2em;
+font-size: 13px;
+padding: 1em;
+background-image: url(./../images/common-icons/PNG/download.png);
+display: block;
+width: 8px;
+height: 5px;
+background-size: 100%;
+background-repeat: no-repeat;
+background-position-x: 100%;
+color: transparent!important;
+ 
+}
+.wp-block-file.wp-block-file__button:hover{
+background-image: url(./../images/common-icons/PNG/download-on-hover.png);
+}
+@media screen and (max-width: 760px) {
+.wp-block-file {
+width: 100%; 
+}
+}
+

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <g id="Search_header_on_hover" data-name="Search_header_on hover" transform="translate(0 0.333)">
+    <rect id="Rectangle_208" data-name="Rectangle 208" width="28" height="28" transform="translate(0 -0.333)" fill="none"/>
+    <g id="search" transform="translate(4 4)">
+      <g id="Group_302" data-name="Group 302">
+        <g id="Group_301" data-name="Group 301">
+          <path id="Path_127" data-name="Path 127" d="M14.456,2.48A8.468,8.468,0,1,0,2.48,14.456,8.468,8.468,0,1,0,14.456,2.48ZM8.468,15.32A6.852,6.852,0,1,1,15.32,8.468,6.86,6.86,0,0,1,8.468,15.32Z" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Group_304" data-name="Group 304" transform="translate(13.073 13.073)">
+        <g id="Group_303" data-name="Group 303">
+          <path id="Path_128" data-name="Path 128" d="M341.365,340.222l-5.311-5.311a.808.808,0,1,0-1.143,1.143l5.311,5.311a.808.808,0,0,0,1.143-1.143Z" transform="translate(-334.675 -334.674)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
