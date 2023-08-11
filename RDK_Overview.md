@@ -72,7 +72,7 @@ RDK Broadband (RDK-B) software is capable of powering next-gen gateways
 across DOCSIS, PON, DSL, 5G, and ethernet, enabling OEMs to standardize
 elements of their modems, gateways, and converged devices.
 
-[Click here to know more](RDK/Broadband/RDK_BB_Overview.md)
+[Click here to know more](RDK_BB_Overview.md)
 
   
 ## RDK Video
@@ -80,4 +80,4 @@ elements of their modems, gateways, and converged devices.
 RDK accelerates the deployment of next-gen video products and services,
 simplifying customization and user experience.
 
-[Click here to know more](RDK/Video/RDK_Video_Overview.md)
+[Click here to know more](RDK_Video_Overview.md)
